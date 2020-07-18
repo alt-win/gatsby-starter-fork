@@ -45,9 +45,12 @@ class Index extends React.Component {
                 </header>
                 <p>
                   The community gathers to host BCHDevcon III, a 32 hours non-stop
-                  global hackathon on the 5th and 6th of September 2020. A chance for all hackers to compete for top prizes.
+                  hackathon on the 5th and 6th of September 2020. A chance for all hackers to compete for top prizes.
 
                 </p>
+                <header className="major">
+                  <h2>Venue Info</h2>
+                </header>
                 <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
@@ -60,6 +63,82 @@ class Index extends React.Component {
                 <img src={pic01} alt="" />
               </span>
             </div>
+          </section>
+          <section id="first" className="main special">
+            <header className="major">
+              <h2>Sponsors</h2>
+            </header>
+            <p></p>
+            <ul className="sponsors">
+              <li>
+
+                <span class="icon major spotlight image fit">
+                <img src=""></img>
+                </span>
+              </li>
+              <li>
+
+                <span class="icon major spotlight image fit">
+                <img src=""></img>
+                </span>
+              </li><li>
+
+                <span class="icon major spotlight image fit">
+                <img src=""></img>
+                </span>
+              </li>
+
+
+            </ul>
+            <footer className="major">
+              <ul className="actions">
+                <li>
+                  <a onclick="toggleTamView()" className="button" id="viewfullteam">
+                    View Full Team
+                  </a>
+                </li>
+              </ul>
+            </footer>
+          </section>
+          <section id="first" className="main special">
+            <header className="major">
+              <h2>Contribute</h2>
+            </header>
+            <p>
+
+            </p>
+
+            <ul className="contribute">
+              <li>
+                <h3>Help fund our FlipStarter Campaign</h3>
+                <span class="icon major spotlight image fit">
+                <img src=""></img>
+                </span>
+              </li>
+              <li>
+                <h3>Sponsor us by purchasing tokens</h3>
+                <span class="icon major spotlight image fit">
+                <img src=""></img>
+                </span>
+              </li>
+              <li>
+                <h3>Donate to our multi-sig addresses</h3>
+                <span class="icon major spotlight image fit">
+                <img src=""></img>
+                </span>
+              </li>
+
+
+            </ul>
+            <footer className="major">
+              <ul className="actions">
+                <li>
+                  <a onclick="toggleTamView()" className="button" id="viewfullteam">
+                    View Full Team
+                  </a>
+                </li>
+              </ul>
+            </footer>
           </section>
 
           <section id="first" className="main special">
@@ -128,7 +207,7 @@ class Index extends React.Component {
 
                 </p>
               </li>
-              <div class="fullteam"></div>
+              <div id="fullteam">
               <li>
                 <span className="icon major style5 fa-diamond"></span>
                 <h3>Dolor nullam</h3>
@@ -137,13 +216,15 @@ class Index extends React.Component {
                   consequat tempus veroeros sed consequat.
                 </p>
               </li>
+              </div>
+
             </ul>
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="" className="button" id="viewfullteam">
+                  <a onclick="toggleTamView()" className="button" id="viewfullteam">
                     View Full Team
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </footer>
@@ -151,7 +232,7 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>Current Prize Pool</h2>
               <p>
                 Donec imperdiet consequat consequat. Suspendisse feugiat congue
                 <br />
@@ -205,11 +286,11 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
+              <h2>Contact</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
+              Send an email to:
                 <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+                <a href="mailto:contact@devcon.cash">contact@DevCon.cash</a>
               </p>
             </header>
             <footer className="major">
@@ -234,3 +315,8 @@ class Index extends React.Component {
 }
 
 export default Index
+
+function toggleTamView() {
+  var element = document.getElementById("fullteam");
+  element.classList.toggle("mystyle");
+}

@@ -34,19 +34,15 @@ const Footer = props => (
       <ul className="icons">
         <li>
           <a
-            href="https://twitter.com/huntaroSan"
-            className="icon fa-twitter alt"
+            href="https://t.me/BCHDevCon"
+            className="icon fa-telegram alt"
           >
-            <span className="label">Twitter</span>
+            <span className="label">Telegram</span>
           </a>
         </li>
+
         <li>
-          <a href="https://codebushi.com" className="icon fa-facebook alt">
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://codebushi.com" className="icon fa-instagram alt">
+          <a href="https://codebushi.com" className="icon fa-discord">
             <span className="label">Instagram</span>
           </a>
         </li>
