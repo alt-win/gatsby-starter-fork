@@ -26,7 +26,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="BCH DevCon III" />
 
         <Header />
 
@@ -41,18 +41,17 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Bitcoin Cash DevCon III - Los Angeles, California</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                  The community gathers to host BCHDevcon III, a 32 hours non-stop
+                  global hackathon on the 5th and 6th of September 2020. A chance for all hackers to compete for top prizes.
+
                 </p>
                 <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
-                      Learn More
+                      Register for Free
                     </Link>
                   </li>
                 </ul>
@@ -65,25 +64,71 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Team</h2>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+
+                <span class="icon major spotlight image fit">
+                <img src="https://pbs.twimg.com/profile_images/1147044290100678656/rDWEGeFw_400x400.png"></img>
+                </span>
+
+
+
+                <h3>Christian#1000♦️</h3>
+                <h4>Event Host</h4>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Christian is a Bitcoin Cash leader in southern California, USA
+                  who is focused on spreading merchant adoption.  He also runs the
+                  <a href="https://youtube.com/BitcoinCast"> Bitcoin Cast</a> podcast.
+
+
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
+                <span class="icon major spotlight image fit"><img src="https://pbs.twimg.com/profile_images/1113077204068503552/OFQH0xXt_400x400.png"></img></span>
+                <h3>Eléonore Blanc</h3>
+                <h4>Event Organizer</h4>
+
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Elenore is the organizer of the past two bitcoin cash DevCon events both in the Netherlands, and SanFransisco.
+                  Her main platform is <a href="https://cryptocanal.org">CryptoCanal</a>.
                 </p>
               </li>
+              <li>
+
+                <span class="icon major spotlight image fit">
+                <img src="https://pbs.twimg.com/profile_images/952295826658795520/7ICtooLL_400x400.jpg"></img>
+                </span>
+
+
+
+                <h3>Chris Troutner</h3>
+                <h4>Mentor</h4>
+                <p>
+                  Chris is the founder of the <a href="">Permissionless Software Foundation</a>, which seeks to
+                  build out the infrastructure for bitcoin cash full stack developers.
+
+                </p>
+              </li>
+              <li>
+
+                <span class="icon major spotlight image fit">
+                <img src="https://i.ibb.co/7tPQmGc/sechet.jpg"></img>
+                </span>
+
+
+
+                <h3>Amaury Séchet</h3>
+                <h4>Mentor</h4>
+                <p>
+                  Amaury is the lead developer for <a href="https://bitcoinabc.org">Bitcoin ABC</a>,
+                  which is currently the most popular fullnode implementation for Bitcoin Cash.
+
+
+                </p>
+              </li>
+              <div class="fullteam"></div>
               <li>
                 <span className="icon major style5 fa-diamond"></span>
                 <h3>Dolor nullam</h3>
@@ -96,8 +141,8 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
-                    Learn More
+                  <Link to="" className="button" id="viewfullteam">
+                    View Full Team
                   </Link>
                 </li>
               </ul>
