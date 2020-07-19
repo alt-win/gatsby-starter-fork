@@ -20,43 +20,28 @@ const Footer = props => (
       </ul>
     </section>
     <section>
-      <h2>Etiam feugiat</h2>
+      <h2>Contact Us</h2>
       <dl className="alt">
-        <dt>Address</dt>
-        <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-        <dt>Phone</dt>
-        <dd>(000) 000-0000 x 0000</dd>
         <dt>Email</dt>
         <dd>
-          <a href="https://codebushi.com">information@untitled.tld</a>
+          <a href="mailto:contact@devcon.cash">Contact@DevCon.cash</a>
         </dd>
       </dl>
       <ul className="icons">
         <li>
-          <a
-            href="https://t.me/BCHDevCon"
-            className="icon fa-telegram alt"
-          >
+          <a href="https://t.me/BCHDevCon" className="icon fa-telegram alt">
             <span className="label">Telegram</span>
           </a>
         </li>
 
         <li>
-          <a href="https://codebushi.com" className="icon fa-discord">
-            <span className="label">Instagram</span>
+          <a href="https://twitter.com/DevConcash" className="icon fa-twitter alt">
+            <span className="label">Twitter</span>
           </a>
         </li>
         <li>
-          <a
-            href="https://github.com/codebushi/gatsby-starter-stellar"
-            className="icon fa-github alt"
-          >
-            <span className="label">GitHub</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://codebushi.com" className="icon fa-dribbble alt">
-            <span className="label">Dribbble</span>
+          <a href="https://twitter.com/DevConcash" className="icon fa-discord alt">
+            <span className="label">Twitter</span>
           </a>
         </li>
       </ul>
