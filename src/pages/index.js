@@ -7,6 +7,8 @@ import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
 
+
+
 class Index extends React.Component {
   constructor(props) {
     super(props)

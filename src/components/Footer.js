@@ -40,8 +40,8 @@ const Footer = props => (
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/DevConcash" className="icon fa-discord alt">
-            <span className="label">Twitter</span>
+          <a href="https://discord.gg/" className="icon fa-discord alt">
+            <span className="label">Discord</span>
           </a>
         </li>
       </ul>
