@@ -50,9 +50,8 @@ class Index extends React.Component {
                   hackathon on the 5th and 6th of September 2020. A chance for all hackers to compete for top prizes.
 
                 </p>
-                <header className="major">
-                  <h2>Venue Info</h2>
-                </header>
+
+
                 <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
@@ -64,6 +63,17 @@ class Index extends React.Component {
               <span className="image">
                 <img src={pic01} alt="" />
               </span>
+            </div>
+            <div>
+            <header className="major">
+              <h2>Venue Info</h2>
+            </header>
+            <p>
+              <img className="" src="https://lh3.googleusercontent.com/Y80bLBbPobR8IPkyNPen1UxWUs7lh-qRy3i6sGrRSJuOgLUJdHvP3ABjZC4_-IoevdpBkHOe=w1080-h608-p-no-v0"></img>
+              <img className="" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/1721463/settings_images/KACGh0DyTA2xhdalcALJ_file.jpg"></img>
+              <img className="" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/1721463/settings_images/iE684Hx2ToC297z1Z3Fo_file.jpg"></img>
+              The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  With over 
+            </p>
             </div>
           </section>
           <section id="first" className="main special">
@@ -96,7 +106,7 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <a onclick="toggleTamView()" className="button" id="viewfullteam">
-                    View Full Team
+
                   </a>
                 </li>
               </ul>

@@ -4,25 +4,9 @@ import React from 'react'
 const Footer = props => (
   <footer id="footer">
     <section>
-      <h2>Aliquam sed mauris</h2>
-      <p>
-        Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
-        magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras
-        aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae
-        tincidunt odio.
-      </p>
-      <ul className="actions">
-        <li>
-          <Link to="/generic" className="button">
-            Learn More
-          </Link>
-        </li>
-      </ul>
-    </section>
-    <section>
       <h2>Contact Us</h2>
       <dl className="alt">
-        <dt>Email</dt>
+        <dt>Email:</dt>
         <dd>
           <a href="mailto:contact@devcon.cash">Contact@DevCon.cash</a>
         </dd>
@@ -40,7 +24,7 @@ const Footer = props => (
           </a>
         </li>
         <li>
-          <a href="https://discord.gg/" className="icon fa-discord alt">
+          <a href="https://discord.gg/NnmvC7c" className="icon fa-discord alt">
             <span className="label">Discord</span>
           </a>
         </li>
