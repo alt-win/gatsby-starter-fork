@@ -6,8 +6,9 @@ import pic01 from '../assets/images/pic01.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
-
-
+import PlaceImg1 from '../assets/images/place-img1.jpg'
+import PlaceImg2 from '../assets/images/place-img2.jpg'
+import PlaceImg3 from '../assets/images/place-img3.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -68,12 +69,10 @@ class Index extends React.Component {
             <header className="major">
               <h2>Venue Info</h2>
             </header>
-            <p>
-              <img className="" src="https://lh3.googleusercontent.com/Y80bLBbPobR8IPkyNPen1UxWUs7lh-qRy3i6sGrRSJuOgLUJdHvP3ABjZC4_-IoevdpBkHOe=w1080-h608-p-no-v0"></img>
-              <img className="" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/1721463/settings_images/KACGh0DyTA2xhdalcALJ_file.jpg"></img>
-              <img className="" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/1721463/settings_images/iE684Hx2ToC297z1Z3Fo_file.jpg"></img>
-              The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  With over 
-            </p>
+              <img className="" src={PlaceImg1}></img>
+              <img className="" src={PlaceImg2}></img>
+              <img className="" src={PlaceImg3}></img>
+              <p>The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  With over </p>
             </div>
           </section>
           <section id="first" className="main special">
