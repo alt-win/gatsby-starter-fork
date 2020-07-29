@@ -84,18 +84,18 @@ class Index extends React.Component {
             <ul className="sponsors">
               <li>
 
-                <span class="icon major spotlight image fit">
+                <span className="icon major spotlight image fit">
                 <img src=""></img>
                 </span>
               </li>
               <li>
 
-                <span class="icon major spotlight image fit">
+                <span className="icon major spotlight image fit">
                 <img src=""></img>
                 </span>
               </li><li>
 
-                <span class="icon major spotlight image fit">
+                <span className="icon major spotlight image fit">
                 <img src=""></img>
                 </span>
               </li>
@@ -105,7 +105,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <a onclick="toggleTamView()" className="button" id="viewfullteam">
+                  <a onClick="toggleTamView()" className="button" id="viewfullteam">
 
                   </a>
                 </li>
@@ -123,19 +123,19 @@ class Index extends React.Component {
             <ul className="contribute">
               <li>
                 <h3>Help fund our FlipStarter Campaign</h3>
-                <span class="icon major spotlight image fit">
+                <span className="icon major spotlight image fit">
                 <img src=""></img>
                 </span>
               </li>
               <li>
                 <h3>Become a Sponsor</h3>
-                <span class="icon major spotlight image fit">
+                <span className="icon major spotlight image fit">
                 <img src=""></img>
                 </span>
               </li>
               <li>
                 <h3>Donate to our multi-sig addresses</h3>
-                <span class="icon major spotlight image fit">
+                <span className="icon major spotlight image fit">
                 <img src=""></img>
                 </span>
               </li>
@@ -145,7 +145,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <a onclick="toggleTamView()" className="button" id="viewfullteam">
+                  <a onClick="toggleTamView()" className="button" id="viewfullteam">
                     View Full Team
                   </a>
                 </li>
@@ -160,7 +160,7 @@ class Index extends React.Component {
             <ul className="features">
               <li>
 
-                <span class="icon major spotlight image fit">
+                <span className="icon major spotlight image fit">
                 <img src="https://pbs.twimg.com/profile_images/1147044290100678656/rDWEGeFw_400x400.png"></img>
                 </span>
 
@@ -177,7 +177,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span class="icon major spotlight image fit"><img src="https://pbs.twimg.com/profile_images/1113077204068503552/OFQH0xXt_400x400.png"></img></span>
+                <span className="icon major spotlight image fit"><img src="https://pbs.twimg.com/profile_images/1113077204068503552/OFQH0xXt_400x400.png"></img></span>
                 <h3>Eléonore Blanc</h3>
                 <h4>Event Organizer</h4>
 
@@ -188,7 +188,7 @@ class Index extends React.Component {
               </li>
               <li>
 
-                <span class="icon major spotlight image fit">
+                <span className="icon major spotlight image fit">
                 <img src="https://pbs.twimg.com/profile_images/952295826658795520/7ICtooLL_400x400.jpg"></img>
                 </span>
 
@@ -204,7 +204,7 @@ class Index extends React.Component {
               </li>
               <li>
 
-                <span class="icon major spotlight image fit">
+                <span className="icon major spotlight image fit">
                 <img src="https://i.ibb.co/7tPQmGc/sechet.jpg"></img>
                 </span>
 
@@ -234,7 +234,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <a onclick="toggleTamView()" className="button" id="viewfullteam">
+                  <a onClick="toggleTamView()" className="button" id="viewfullteam">
                     View Full Team
                   </a>
                 </li>
