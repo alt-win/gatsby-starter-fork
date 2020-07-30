@@ -9,6 +9,9 @@ import Nav from '../components/Nav'
 import PlaceImg1 from '../assets/images/place-img1.jpg'
 import PlaceImg2 from '../assets/images/place-img2.jpg'
 import PlaceImg3 from '../assets/images/place-img3.jpg'
+import Swiper from 'swiper';
+import 'swiper/swiper.scss';
+import '../assets/scss/swiper.scss'
 
 class Index extends React.Component {
   constructor(props) {
@@ -16,6 +19,20 @@ class Index extends React.Component {
     this.state = {
       stickyNav: false,
     }
+  }
+
+  componentDidMount(){
+    this.Swiper = new Swiper('.swiper-container', {
+      loop: true,
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+      }
+    }); 
   }
 
   _handleWaypointEnter = () => {
@@ -69,11 +86,21 @@ class Index extends React.Component {
             <header className="major">
               <h2>Venue Info</h2>
             </header>
-              <img className="" src={PlaceImg1}></img>
-              <img className="" src={PlaceImg2}></img>
-              <img className="" src={PlaceImg3}></img>
-              <p>The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  With over </p>
+              <div id="place-swiper" className="swiper-container">
+                <div className="swiper-wrapper">
+                    <div className="swiper-slide">
+                      <div className="place-img img1"></div>
+                    </div>
+                    <div className="swiper-slide">
+                      <div className="place-img img2"></div>
+                    </div>
+                    <div className="swiper-slide">
+                      <div className="place-img img3"></div>
+                    </div>
+                </div>
             </div>
+            <p>The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  With over </p>
+          </div>
           </section>
           <section id="first" className="main special">
             <header className="major">
