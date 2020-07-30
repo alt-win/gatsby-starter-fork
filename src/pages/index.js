@@ -6,12 +6,12 @@ import pic01 from '../assets/images/pic01.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
-import PlaceImg1 from '../assets/images/place-img1.jpg'
-import PlaceImg2 from '../assets/images/place-img2.jpg'
-import PlaceImg3 from '../assets/images/place-img3.jpg'
 import Swiper from 'swiper';
 import 'swiper/swiper.scss';
-import '../assets/scss/swiper.scss'
+import '../assets/scss/home-swipers.scss'
+import sponsor1 from '../assets/images/sponsor1.png'
+import sponsor2 from '../assets/images/sponsor2.png'
+import sponsor3 from '../assets/images/sponsor3.png'
 
 class Index extends React.Component {
   constructor(props) {
@@ -22,7 +22,7 @@ class Index extends React.Component {
   }
 
   componentDidMount(){
-    this.Swiper = new Swiper('.swiper-container', {
+    this.placeSwiper = new Swiper('#place-swiper', {
       loop: true,
       breakpoints: {
         0: {
@@ -33,6 +33,48 @@ class Index extends React.Component {
         },
       }
     }); 
+    this.sponsorsLg = new Swiper('#sponsors-lg-swiper', {
+      loop: true,
+      breakpoints: {
+        0: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        992: {
+          slidesPerView: 4,
+        },
+      }
+    }); 
+    this.sponsorsMd = new Swiper('#sponsors-md-swiper', {
+      loop: true,
+      breakpoints: {
+        0: {
+          slidesPerView: 3,
+        },
+        768: {
+          slidesPerView: 4,
+        },
+        992: {
+          slidesPerView: 4,
+        },
+      }
+    }); 
+    this.sponsorsSm = new Swiper('#sponsors-sm-swiper', {
+      loop: true,
+      breakpoints: {
+        0: {
+          slidesPerView: 3,
+        },
+        768: {
+          slidesPerView: 4,
+        },
+        992: {
+          slidesPerView: 5,
+        },
+      }
+    });
   }
 
   _handleWaypointEnter = () => {
@@ -88,18 +130,18 @@ class Index extends React.Component {
             </header>
               <div id="place-swiper" className="swiper-container">
                 <div className="swiper-wrapper">
-                    <div className="swiper-slide">
-                      <div className="place-img img1"></div>
-                    </div>
-                    <div className="swiper-slide">
-                      <div className="place-img img2"></div>
-                    </div>
-                    <div className="swiper-slide">
-                      <div className="place-img img3"></div>
-                    </div>
+                  <div className="swiper-slide">
+                    <div className="place-img img1"></div>
+                  </div>
+                  <div className="swiper-slide">
+                    <div className="place-img img2"></div>
+                  </div>
+                  <div className="swiper-slide">
+                    <div className="place-img img3"></div>
+                  </div>
                 </div>
-            </div>
-            <p>The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  With over </p>
+              </div>
+              <p>The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  With over </p>
           </div>
           </section>
           <section id="first" className="main special">
@@ -108,35 +150,33 @@ class Index extends React.Component {
             </header>
             <p></p>
             <ul className="sponsors">
-              <li>
-
-                <span className="icon major spotlight image fit">
-                <img src=""></img>
-                </span>
-              </li>
-              <li>
-
-                <span className="icon major spotlight image fit">
-                <img src=""></img>
-                </span>
-              </li><li>
-
-                <span className="icon major spotlight image fit">
-                <img src=""></img>
-                </span>
-              </li>
-
-
+                <div id="sponsors-lg-swiper" className="swiper-container">
+                  <div className="swiper-wrapper">
+                    <div className="swiper-slide"><a href="#"><img src={sponsor1} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor2} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor3} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor2} alt="sponsor" title="sponsor"/></a></div>
+                  </div>
+                </div>
+                <div id="sponsors-md-swiper" className="swiper-container">
+                  <div className="swiper-wrapper">
+                    <div className="swiper-slide"><a href="#"><img src={sponsor2} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor2} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor3} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor3} alt="sponsor" title="sponsor"/></a></div>
+                  </div>
+                </div>
+                <div id="sponsors-sm-swiper" className="swiper-container">
+                  <div className="swiper-wrapper">
+                    <div className="swiper-slide"><a href="#"><img src={sponsor1} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor1} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor3} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor3} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor2} alt="sponsor" title="sponsor"/></a></div>
+                  </div>
+                </div>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <a onClick="toggleTamView()" className="button" id="viewfullteam">
-
-                  </a>
-                </li>
-              </ul>
-            </footer>
+            <a onClick="toggleTamView()" className="button" id="viewSponsors">View All</a>
           </section>
           <section id="first" className="main special">
             <header className="major">
