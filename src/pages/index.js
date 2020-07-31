@@ -54,7 +54,7 @@ class Index extends React.Component {
 
                 <ul className="actions">
                   <li>
-                    <Link to="/generic" className="button">
+                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSd1OInMhJczCwTD-5ch5Lx5F7nFpdIKmLwpKUJ2SYWSrxUGTw/viewform?usp=sf_link" className="button">
                       Register for Free
                     </Link>
                   </li>
@@ -72,11 +72,11 @@ class Index extends React.Component {
               <img className="" src="https://lh3.googleusercontent.com/Y80bLBbPobR8IPkyNPen1UxWUs7lh-qRy3i6sGrRSJuOgLUJdHvP3ABjZC4_-IoevdpBkHOe=w1080-h608-p-no-v0"></img>
               <img className="" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/1721463/settings_images/KACGh0DyTA2xhdalcALJ_file.jpg"></img>
               <img className="" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/1721463/settings_images/iE684Hx2ToC297z1Z3Fo_file.jpg"></img>
-              The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  With over 
+              The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  With over
             </p>
             </div>
           </section>
-          <section id="first" className="main special">
+          <section id="sponsors" className="main special">
             <header className="major">
               <h2>Sponsors</h2>
             </header>
@@ -102,25 +102,22 @@ class Index extends React.Component {
 
 
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <a onclick="toggleTamView()" className="button" id="viewfullteam">
-
-                  </a>
-                </li>
-              </ul>
-            </footer>
           </section>
-          <section id="first" className="main special">
+          <section id="join" className="main special">
             <header className="major">
-              <h2>Contribute</h2>
+              <h2>Be a Part of BCH DevCon</h2>
             </header>
             <p>
 
             </p>
 
-            <ul className="contribute">
+            <ul className="features">
+              <li>
+                <h3>Compete in BCH DevCon</h3>
+                <a href="https://discord.gg/NnmvC7c" className="icon major image fa-trophy fit">
+                  <span className="label">Discord</span>
+                </a>
+              </li>
               <li>
                 <h3>Help fund our FlipStarter Campaign</h3>
                 <span class="icon major spotlight image fit">
@@ -135,25 +132,22 @@ class Index extends React.Component {
               </li>
               <li>
                 <h3>Donate to our multi-sig addresses</h3>
-                <span class="icon major spotlight image fit">
-                <img src=""></img>
-                </span>
+                <a href="https://discord.gg/NnmvC7c" className="icon major image fa-prizes fit">
+                  <span className="label">Discord</span>
+                </a>
+              </li>
+              <li>
+                <h3>Join Our Discord Server</h3>
+                <a href="https://discord.gg/NnmvC7c" className="icon major image fa-discord fit">
+                  <span className="label">Discord</span>
+                </a>
               </li>
 
-
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <a onclick="toggleTamView()" className="button" id="viewfullteam">
-                    View Full Team
-                  </a>
-                </li>
-              </ul>
-            </footer>
+
           </section>
 
-          <section id="first" className="main special">
+          <section id="team" className="main special">
             <header className="major">
               <h2>Team</h2>
             </header>
