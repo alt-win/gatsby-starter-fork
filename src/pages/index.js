@@ -113,7 +113,7 @@ class Index extends React.Component {
 
                 <ul className="actions">
                   <li>
-                    <Link to="/generic" className="button">
+                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSd1OInMhJczCwTD-5ch5Lx5F7nFpdIKmLwpKUJ2SYWSrxUGTw/viewform?usp=sf_link" className="button">
                       Register for Free
                     </Link>
                   </li>
@@ -175,14 +175,19 @@ class Index extends React.Component {
                   </div>
                 </div>
             </ul>
-            {/* <a onClick="toggleTamView()" className="button" id="viewSponsors">View All</a> */}
           </section>
           <section id="join" className="main special">
             <header className="major">
               <h2>Be a Part of BCH DevCon</h2>
             </header>
             
-            <ul className="contribute">
+            <ul className="features">
+              <li>
+                <h3>Compete in BCH DevCon</h3>
+                <a href="https://discord.gg/NnmvC7c" className="icon major image fa-trophy fit">
+                  <span className="label">Discord</span>
+                </a>
+              </li>
               <li>
                 <h3>Help fund our FlipStarter Campaign</h3>
                 <span className="icon major spotlight image fit">
@@ -197,8 +202,19 @@ class Index extends React.Component {
               </li>
               <li>
                 <h3>Donate to our multi-sig addresses</h3>
+                <a href="https://discord.gg/NnmvC7c" className="icon major image fa-prizes fit">
+                  <span className="label">Discord</span>
+                </a>
               </li>
+              <li>
+                <h3>Join Our Discord Server</h3>
+                <a href="https://discord.gg/NnmvC7c" className="icon major image fa-discord fit">
+                  <span className="label">Discord</span>
+                </a>
+              </li>
+
             </ul>
+
           </section>
 
           <section id="team" className="main special">
