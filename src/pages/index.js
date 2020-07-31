@@ -237,7 +237,7 @@ class Index extends React.Component {
                 <p>
                   Christian is a Bitcoin Cash leader in southern California, USA
                   who is focused on spreading merchant adoption.  He also runs the
-                  <a href="https://youtube.com/BitcoinCast"> Bitcoin Cast</a> podcast.
+                  <a target="_blank" href="https://youtube.com/BitcoinCast"> Bitcoin Cast</a> podcast.
 
 
                 </p>
@@ -249,7 +249,7 @@ class Index extends React.Component {
 
                 <p>
                   Elenore is the organizer of the past two bitcoin cash DevCon events both in the Netherlands, and SanFransisco.
-                  Her main platform is <a href="https://cryptocanal.org">CryptoCanal</a>.
+                  Her main platform is <a target="_blank" href="https://cryptocanal.org">CryptoCanal</a>.
                 </p>
               </li>
               <li>
@@ -263,7 +263,7 @@ class Index extends React.Component {
                 <h3>Chris Troutner</h3>
                 <h4>Mentor</h4>
                 <p>
-                  Chris is the founder of the <a href="">Permissionless Software Foundation</a>, which seeks to
+                  Chris is the founder of the <a target="_blank" href="https://psfoundation.cash">Permissionless Software Foundation</a>, which seeks to
                   build out the infrastructure for bitcoin cash full stack developers.
 
                 </p>
@@ -279,7 +279,7 @@ class Index extends React.Component {
                 <h3>Amaury Séchet</h3>
                 <h4>Mentor</h4>
                 <p>
-                  Amaury is the lead developer for <a href="https://bitcoinabc.org">Bitcoin ABC</a>,
+                  Amaury is the lead developer for <a target="_blank" href="https://bitcoinabc.org">Bitcoin ABC</a>,
                   which is currently the most popular fullnode implementation for Bitcoin Cash.
 
 
