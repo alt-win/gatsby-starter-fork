@@ -9,9 +9,8 @@ import Nav from '../components/Nav'
 import Swiper from 'swiper';
 import 'swiper/swiper.scss';
 import '../assets/scss/home-swipers.scss'
-import sponsor1 from '../assets/images/sponsor1.png'
-import sponsor2 from '../assets/images/sponsor2.png'
-import sponsor3 from '../assets/images/sponsor3.png'
+import placeholder from '../assets/images/placeholder.png'
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -144,7 +143,7 @@ class Index extends React.Component {
               <p>The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  With over </p>
           </div>
           </section>
-          <section id="first" className="main special">
+          <section id="sponsors" className="main special">
             <header className="major">
               <h2>Sponsors</h2>
             </header>
@@ -152,33 +151,33 @@ class Index extends React.Component {
             <ul className="sponsors">
                 <div id="sponsors-lg-swiper" className="swiper-container">
                   <div className="swiper-wrapper">
-                    <div className="swiper-slide"><a href="#"><img src={sponsor1} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor2} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor3} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor2} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
                   </div>
                 </div>
                 <div id="sponsors-md-swiper" className="swiper-container">
                   <div className="swiper-wrapper">
-                    <div className="swiper-slide"><a href="#"><img src={sponsor2} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor2} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor3} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor3} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
                   </div>
                 </div>
                 <div id="sponsors-sm-swiper" className="swiper-container">
                   <div className="swiper-wrapper">
-                    <div className="swiper-slide"><a href="#"><img src={sponsor1} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor1} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor3} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor3} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor2} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
                   </div>
                 </div>
             </ul>
             <a onClick="toggleTamView()" className="button" id="viewSponsors">View All</a>
           </section>
-          <section id="first" className="main special">
+          <section id="contribute" className="main special">
             <header className="major">
               <h2>Contribute</h2>
             </header>
@@ -219,7 +218,7 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="first" className="main special">
+          <section id="team" className="main special">
             <header className="major">
               <h2>Team</h2>
             </header>
@@ -229,7 +228,6 @@ class Index extends React.Component {
                 <span className="icon major spotlight image fit">
                 <img src="https://pbs.twimg.com/profile_images/1147044290100678656/rDWEGeFw_400x400.png"></img>
                 </span>
-
 
 
                 <h3>Christian#1000♦️</h3>
