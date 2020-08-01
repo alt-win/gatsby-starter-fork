@@ -128,10 +128,10 @@ class Index extends React.Component {
             <header className="major">
               <h2>Sponsors</h2>
             </header>
-            <p></p>
+            <p>coming soon</p>
             <ul className="sponsors">
               <div className="lg-sponsors">
-                <a href="#"><div className="sponsor-logo sponsor1"><img src=""></img></div></a>
+                <a href="#"><div className="sponsor-logo sponsor1"></div></a>
                 <a href="#"><div className="sponsor-logo sponsor2"></div></a>
                 <a href="#"><div className="sponsor-logo sponsor3"></div></a>
               </div>
