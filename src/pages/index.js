@@ -10,6 +10,12 @@ import Swiper from 'swiper';
 import 'swiper/swiper.scss';
 import '../assets/scss/place-swiper.scss'
 import '../assets/scss/sponsors.scss'
+import '../assets/scss/join.scss'
+import competeIcon from '../assets/images/join/compete.svg'
+import sponsorIcon from '../assets/images/join/sponsor.svg'
+import discordIcon from '../assets/images/join/discord.svg'
+import donateIcon from '../assets/images/join/donate.svg'
+import helpIcon from '../assets/images/join/help.svg'
 
 
 class Index extends React.Component {
@@ -32,6 +38,22 @@ class Index extends React.Component {
         },
       }
     }); 
+  }
+
+  toggleTeamView = () => {
+    const element = document.getElementsByClassName('fullteam-item'); 
+    const btn = document.getElementById('viewfullteam-btn'); 
+
+    for(let i=0; i<element.length; i++)
+    {
+      if (element[i].style.display === "none") {
+        element[i].style.display = "block";
+        btn.innerText = "View less";
+      } else {
+        element[i].style.display = "none";
+        btn.innerText = "View Full Team";
+      }
+    }
   }
 
   _handleWaypointEnter = () => {
@@ -134,33 +156,23 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                 <h3>Compete in BCH DevCon</h3>
-                <a href="https://discord.gg/NnmvC7c" className="icon major image fa-trophy fit">
-                  <span className="label">Discord</span>
-                </a>
+                <a href="#"><img className="mt-sm-25" src={competeIcon} /></a>
               </li>
               <li>
                 <h3>Help fund our FlipStarter Campaign</h3>
-                <span className="icon major spotlight image fit">
-                <img src=""></img>
-                </span>
+                <a href="#"><img src={helpIcon} /></a>
               </li>
               <li>
                 <h3>Become a Sponsor</h3>
-                <span className="icon major spotlight image fit">
-                <img src=""></img>
-                </span>
+                <a href="#"><img className="mt-sm-25" src={sponsorIcon} /></a>
               </li>
-              <li>
+              <li className="donate">
                 <h3>Donate to our multi-sig addresses</h3>
-                <a href="https://discord.gg/NnmvC7c" className="icon major image fa-prizes fit">
-                  <span className="label">Discord</span>
-                </a>
+                <a href="#"><img src={donateIcon} /></a>
               </li>
               <li>
                 <h3>Join Our Discord Server</h3>
-                <a href="https://discord.gg/NnmvC7c" className="icon major image fa-discord fit">
-                  <span className="label">Discord</span>
-                </a>
+                <a href="https://discord.gg/NnmvC7c"><img src={discordIcon} /></a>
               </li>
 
             </ul>
@@ -222,23 +234,60 @@ class Index extends React.Component {
                 </p>
               </li>
 
-              <div id="fullteam">
-              
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+              <li className="fullteam-item">
+                <span className="icon major spotlight image fit">
+                  <img src="https://pbs.twimg.com/profile_images/1147044290100678656/rDWEGeFw_400x400.png"></img>
+                </span>
+                <h3>Christian#1000♦️</h3>
+                <h4>Event Host</h4>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Christian is a Bitcoin Cash leader in southern California, USA
+                  who is focused on spreading merchant adoption.  He also runs the
+                  <a target="_blank" href="https://youtube.com/BitcoinCast"> Bitcoin Cast</a> podcast.
                 </p>
               </li>
-              </div>
+            
+              <li className="fullteam-item">
+                <span className="icon major spotlight image fit">
+                  <img src="https://pbs.twimg.com/profile_images/1113077204068503552/OFQH0xXt_400x400.png"></img>
+                </span>
+                <h3>Eléonore Blanc</h3>
+                <h4>Event Organizer</h4>
+                <p>
+                  Elenore is the organizer of the past two bitcoin cash DevCon events both in the Netherlands, and SanFransisco.
+                  Her main platform is <a target="_blank" href="https://cryptocanal.org">CryptoCanal</a>.
+                </p>
+              </li>
+            
+              <li className="fullteam-item">
+                <span className="icon major spotlight image fit">
+                  <img src="https://pbs.twimg.com/profile_images/952295826658795520/7ICtooLL_400x400.jpg"></img>
+                </span>
+                <h3>Chris Troutner</h3>
+                <h4>Mentor</h4>
+                <p>
+                  Chris is the founder of the <a target="_blank" href="https://psfoundation.cash">Permissionless Software Foundation</a>, which seeks to
+                  build out the infrastructure for bitcoin cash full stack developers.
+                </p>
+              </li>
+            
+              <li className="fullteam-item">
+                <span className="icon major spotlight image fit amaury">
+                  <img src="https://i.ibb.co/7tPQmGc/sechet.jpg"></img>
+                </span>
+                <h3>Amaury Séchet</h3>
+                <h4>Mentor</h4>
+                <p>
+                  Amaury is the lead developer for <a target="_blank" href="https://bitcoinabc.org">Bitcoin ABC</a>,
+                  which is currently the most popular fullnode implementation for Bitcoin Cash.
+                </p>
+              </li>
 
             </ul>
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <a onClick="toggleTamView()" className="button" id="viewfullteam">
+                  <a onClick={this.toggleTeamView} className="button" id="viewfullteam-btn">
                     View Full Team
                   </a>
                 </li>
@@ -254,7 +303,4 @@ class Index extends React.Component {
 
 export default Index
 
-function toggleTamView() {
-  var element = document.getElementById("fullteam");
-  element.classList.toggle("mystyle");
-}
+

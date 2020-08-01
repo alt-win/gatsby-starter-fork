@@ -1,0 +1,23 @@
+#join{
+    li{
+        &:hover{
+            font-weight: bold;
+        }
+    }
+    a{
+        border: none;
+    }
+    img{
+        max-width: 80px;
+    }
+    .mt-sm-25{
+        @media only screen and (min-width: 991.9px){
+            margin-top: 25px;
+        }
+    }
+    .donate{
+        @media only screen and (min-width: 735px) and (max-width: 981.9px){
+            margin-top: 47px;
+        }
+    }
+}
