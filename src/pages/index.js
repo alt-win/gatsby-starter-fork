@@ -38,12 +38,12 @@ class Index extends React.Component {
           slidesPerView: 2,
         },
       }
-    }); 
+    });
   }
 
   toggleTeamView = () => {
-    const element = document.getElementsByClassName('fullteam-item'); 
-    const btn = document.getElementById('viewfullteam-btn'); 
+    const element = document.getElementsByClassName('fullteam-item');
+    const btn = document.getElementById('viewfullteam-btn');
 
     for(let i=0; i<element.length; i++)
     {
@@ -121,7 +121,7 @@ class Index extends React.Component {
                   </div>
                 </div>
               </div>
-              <p>The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  With over </p>
+              <p>The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  </p>
           </div>
           </section>
           <section id="sponsors" className="main special">
@@ -131,7 +131,7 @@ class Index extends React.Component {
             <p></p>
             <ul className="sponsors">
               <div className="lg-sponsors">
-                <a href="#"><div className="sponsor-logo sponsor1"></div></a>
+                <a href="#"><div className="sponsor-logo sponsor1"><img src=""></img></div></a>
                 <a href="#"><div className="sponsor-logo sponsor2"></div></a>
                 <a href="#"><div className="sponsor-logo sponsor3"></div></a>
               </div>
@@ -153,23 +153,23 @@ class Index extends React.Component {
             <header className="major">
               <h2>Be a Part of BCH DevCon</h2>
             </header>
-            
+
             <ul className="features">
               <li>
                 <h3>Compete in BCH DevCon</h3>
-                <a href="#"><img className="mt-sm-25" src={competeIcon} /></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1OInMhJczCwTD-5ch5Lx5F7nFpdIKmLwpKUJ2SYWSrxUGTw/viewform?usp=sf_link"><img className="mt-sm-25" src={competeIcon} /></a>
               </li>
               <li>
                 <h3>Help fund our FlipStarter Campaign</h3>
-                <a href="#"><img src={helpIcon} /></a>
+                <a href="https://flipstarter.devcon.cash"><img src={helpIcon} /></a>
               </li>
               <li>
                 <h3>Become a Sponsor</h3>
-                <a href="#"><img className="mt-sm-25" src={sponsorIcon} /></a>
+                <a href="mailto:contact@devcon.cash"><img className="mt-sm-25" src={sponsorIcon} /></a>
               </li>
               <li className="donate">
                 <h3>Donate to our multi-sig addresses</h3>
-                <a href="#"><img src={donateIcon} /></a>
+                <a href="https://explorer.bitcoin.com/bch/address/bitcoincash:pr508v7nem4z67u82rh5qqtpcctzkw6gfvdyvk6ag2"><img src={donateIcon} /></a>
               </li>
               <li>
                 <h3>Join Our Discord Server</h3>
@@ -197,7 +197,7 @@ class Index extends React.Component {
                   <a target="_blank" href="https://youtube.com/BitcoinCast"> Bitcoin Cast</a> podcast.
                 </p>
               </li>
-              
+
               <li>
                 <span className="icon major spotlight image fit">
                   <img src="https://pbs.twimg.com/profile_images/1113077204068503552/OFQH0xXt_400x400.png"></img>
@@ -209,7 +209,7 @@ class Index extends React.Component {
                   Her main platform is <a target="_blank" href="https://cryptocanal.org">CryptoCanal</a>.
                 </p>
               </li>
-              
+
               <li>
                 <span className="icon major spotlight image fit">
                   <img src="https://pbs.twimg.com/profile_images/952295826658795520/7ICtooLL_400x400.jpg"></img>
@@ -222,7 +222,7 @@ class Index extends React.Component {
 
                 </p>
               </li>
-              
+
               <li>
                 <span className="icon major spotlight image fit amaury">
                   <img src="https://i.ibb.co/7tPQmGc/sechet.jpg"></img>
@@ -239,45 +239,14 @@ class Index extends React.Component {
                 <span className="icon major spotlight image fit">
                   <img src={person} />
                 </span>
-                <h3>John Doe</h3>
+                <h3>More to come here. . </h3>
                 <h4>Mentor</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut est interdum, congue urna at, sodales nunc. Proin auctor nisi ut laoreet eleifend.
+                  Let us know if you'd like to be a mentor.
                 </p>
               </li>
-            
-              <li className="fullteam-item">
-                <span className="icon major spotlight image fit">
-                  <img src={person} />
-                </span>
-                <h3>John Doe</h3>
-                <h4>Mentor</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut est interdum, congue urna at, sodales nunc. Proin auctor nisi ut laoreet eleifend.
-                </p>
-              </li>
-            
-              <li className="fullteam-item">
-                <span className="icon major spotlight image fit">
-                  <img src={person} />
-                </span>
-                <h3>John Doe</h3>
-                <h4>Mentor</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut est interdum, congue urna at, sodales nunc. Proin auctor nisi ut laoreet eleifend.
-                </p>
-              </li>
-            
-              <li className="fullteam-item">
-                <span className="icon major spotlight image fit amaury">
-                  <img src={person} />
-                </span>
-                <h3>John Doe</h3>
-                <h4>Mentor</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut est interdum, congue urna at, sodales nunc. Proin auctor nisi ut laoreet eleifend.
-                </p>
-              </li>
+
+
 
             </ul>
             <footer className="major">
@@ -298,5 +267,3 @@ class Index extends React.Component {
 }
 
 export default Index
-
-
