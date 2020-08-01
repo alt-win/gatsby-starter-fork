@@ -8,18 +8,8 @@ import Layout from '../components/layout'
 import Nav from '../components/Nav'
 import Swiper from 'swiper';
 import 'swiper/swiper.scss';
-import '../assets/scss/home-swipers.scss'
-import sponsor1 from '../assets/images/sponsors/sponsor1.svg'
-import sponsor2 from '../assets/images/sponsors/sponsor2.png'
-import sponsor3 from '../assets/images/sponsors/sponsor3.png'
-import sponsor4 from '../assets/images/sponsors/sponsor4.png'
-import sponsor5 from '../assets/images/sponsors/sponsor5.png'
-import sponsor6 from '../assets/images/sponsors/sponsor6.svg'
-import sponsor7 from '../assets/images/sponsors/sponsor7.svg'
-import sponsor8 from '../assets/images/sponsors/sponsor8.svg'
-import sponsor9 from '../assets/images/sponsors/sponsor9.png'
-import sponsor10 from '../assets/images/sponsors/sponsor10.png'
-import sponsor11 from '../assets/images/sponsors/sponsor11.png'
+import '../assets/scss/place-swiper.scss'
+import '../assets/scss/sponsors.scss'
 
 
 class Index extends React.Component {
@@ -42,48 +32,6 @@ class Index extends React.Component {
         },
       }
     }); 
-    this.sponsorsLg = new Swiper('#sponsors-lg-swiper', {
-      loop: true,
-      breakpoints: {
-        0: {
-          slidesPerView: 2,
-        },
-        768: {
-          slidesPerView: 3,
-        },
-        992: {
-          slidesPerView: 4,
-        },
-      }
-    }); 
-    this.sponsorsMd = new Swiper('#sponsors-md-swiper', {
-      loop: true,
-      breakpoints: {
-        0: {
-          slidesPerView: 3,
-        },
-        768: {
-          slidesPerView: 4,
-        },
-        992: {
-          slidesPerView: 4,
-        },
-      }
-    }); 
-    this.sponsorsSm = new Swiper('#sponsors-sm-swiper', {
-      loop: true,
-      breakpoints: {
-        0: {
-          slidesPerView: 3,
-        },
-        768: {
-          slidesPerView: 4,
-        },
-        992: {
-          slidesPerView: 5,
-        },
-      }
-    });
   }
 
   _handleWaypointEnter = () => {
@@ -159,31 +107,23 @@ class Index extends React.Component {
             </header>
             <p></p>
             <ul className="sponsors">
-                <div id="sponsors-lg-swiper" className="swiper-container">
-                  <div className="swiper-wrapper">
-                    <div className="swiper-slide"><a href="#"><img src={sponsor1} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor2} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor3} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor4} alt="sponsor" title="sponsor"/></a></div>
-                  </div>
-                </div>
-                <div id="sponsors-md-swiper" className="swiper-container">
-                  <div className="swiper-wrapper">
-                    <div className="swiper-slide"><a href="#"><img src={sponsor5} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor6} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor7} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor8} alt="sponsor" title="sponsor"/></a></div>
-                  </div>
-                </div>
-                <div id="sponsors-sm-swiper" className="swiper-container">
-                  <div className="swiper-wrapper">
-                    <div className="swiper-slide"><a href="#"><img src={sponsor9} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor10} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor11} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor6} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={sponsor5} alt="sponsor" title="sponsor"/></a></div>
-                  </div>
-                </div>
+              <div className="lg-sponsors">
+                <a href="#"><div className="sponsor-logo sponsor1"></div></a>
+                <a href="#"><div className="sponsor-logo sponsor2"></div></a>
+                <a href="#"><div className="sponsor-logo sponsor3"></div></a>
+              </div>
+              <div className="md-sponsors">
+                <a href="#"><div className="sponsor-logo sponsor4"></div></a>
+                <a href="#"><div className="sponsor-logo sponsor5"></div></a>
+                <a href="#"><div className="sponsor-logo sponsor6"></div></a>
+                <a href="#"><div className="sponsor-logo sponsor7"></div></a>
+              </div>
+              <div className="sm-sponsors">
+                <a href="#"><div className="sponsor-logo sponsor8"></div></a>
+                <a href="#"><div className="sponsor-logo sponsor9"></div></a>
+                <a href="#"><div className="sponsor-logo sponsor10"></div></a>
+                <a href="#"><div className="sponsor-logo sponsor11"></div></a>
+              </div>
             </ul>
           </section>
           <section id="join" className="main special">
