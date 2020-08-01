@@ -161,7 +161,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <h3>Help fund our FlipStarter Campaign</h3>
-                <a href="https://flipstarter.devcon.cash"><img src={helpIcon} /></a>
+                <a href="http://flipstarter.devcon.cash"><img src={helpIcon} /></a>
               </li>
               <li>
                 <h3>Become a Sponsor</h3>
