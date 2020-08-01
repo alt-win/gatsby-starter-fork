@@ -16,6 +16,7 @@ import sponsorIcon from '../assets/images/join/sponsor.svg'
 import discordIcon from '../assets/images/join/discord.svg'
 import donateIcon from '../assets/images/join/donate.svg'
 import helpIcon from '../assets/images/join/help.svg'
+import person from '../assets/images/person.jpg'
 
 
 class Index extends React.Component {
@@ -236,50 +237,45 @@ class Index extends React.Component {
 
               <li className="fullteam-item">
                 <span className="icon major spotlight image fit">
-                  <img src="https://pbs.twimg.com/profile_images/1147044290100678656/rDWEGeFw_400x400.png"></img>
+                  <img src={person} />
                 </span>
-                <h3>Christian#1000♦️</h3>
-                <h4>Event Host</h4>
-                <p>
-                  Christian is a Bitcoin Cash leader in southern California, USA
-                  who is focused on spreading merchant adoption.  He also runs the
-                  <a target="_blank" href="https://youtube.com/BitcoinCast"> Bitcoin Cast</a> podcast.
-                </p>
-              </li>
-            
-              <li className="fullteam-item">
-                <span className="icon major spotlight image fit">
-                  <img src="https://pbs.twimg.com/profile_images/1113077204068503552/OFQH0xXt_400x400.png"></img>
-                </span>
-                <h3>Eléonore Blanc</h3>
-                <h4>Event Organizer</h4>
-                <p>
-                  Elenore is the organizer of the past two bitcoin cash DevCon events both in the Netherlands, and SanFransisco.
-                  Her main platform is <a target="_blank" href="https://cryptocanal.org">CryptoCanal</a>.
-                </p>
-              </li>
-            
-              <li className="fullteam-item">
-                <span className="icon major spotlight image fit">
-                  <img src="https://pbs.twimg.com/profile_images/952295826658795520/7ICtooLL_400x400.jpg"></img>
-                </span>
-                <h3>Chris Troutner</h3>
+                <h3>John Doe</h3>
                 <h4>Mentor</h4>
                 <p>
-                  Chris is the founder of the <a target="_blank" href="https://psfoundation.cash">Permissionless Software Foundation</a>, which seeks to
-                  build out the infrastructure for bitcoin cash full stack developers.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut est interdum, congue urna at, sodales nunc. Proin auctor nisi ut laoreet eleifend.
+                </p>
+              </li>
+            
+              <li className="fullteam-item">
+                <span className="icon major spotlight image fit">
+                  <img src={person} />
+                </span>
+                <h3>John Doe</h3>
+                <h4>Mentor</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut est interdum, congue urna at, sodales nunc. Proin auctor nisi ut laoreet eleifend.
+                </p>
+              </li>
+            
+              <li className="fullteam-item">
+                <span className="icon major spotlight image fit">
+                  <img src={person} />
+                </span>
+                <h3>John Doe</h3>
+                <h4>Mentor</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut est interdum, congue urna at, sodales nunc. Proin auctor nisi ut laoreet eleifend.
                 </p>
               </li>
             
               <li className="fullteam-item">
                 <span className="icon major spotlight image fit amaury">
-                  <img src="https://i.ibb.co/7tPQmGc/sechet.jpg"></img>
+                  <img src={person} />
                 </span>
-                <h3>Amaury Séchet</h3>
+                <h3>John Doe</h3>
                 <h4>Mentor</h4>
                 <p>
-                  Amaury is the lead developer for <a target="_blank" href="https://bitcoinabc.org">Bitcoin ABC</a>,
-                  which is currently the most popular fullnode implementation for Bitcoin Cash.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut est interdum, congue urna at, sodales nunc. Proin auctor nisi ut laoreet eleifend.
                 </p>
               </li>
 
