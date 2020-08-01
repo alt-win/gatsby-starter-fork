@@ -127,4 +127,19 @@
 		}
 	}
 
+	#team{
+		.icon{
+			@media only screen and (max-width: 981.9px){
+				max-width: 60%;
+				margin: 25px auto 0 auto;
+			}
+		}
+		.amaury{
+			@media only screen and (min-width: 736px) and (max-width: 981.9px){
+				margin-top: 70px;
+			}
+		}
+	}
+	
+
 	@include color-icon;
