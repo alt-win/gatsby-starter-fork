@@ -9,7 +9,17 @@ import Nav from '../components/Nav'
 import Swiper from 'swiper';
 import 'swiper/swiper.scss';
 import '../assets/scss/home-swipers.scss'
-import placeholder from '../assets/images/placeholder.png'
+import sponsor1 from '../assets/images/sponsors/sponsor1.svg'
+import sponsor2 from '../assets/images/sponsors/sponsor2.png'
+import sponsor3 from '../assets/images/sponsors/sponsor3.png'
+import sponsor4 from '../assets/images/sponsors/sponsor4.png'
+import sponsor5 from '../assets/images/sponsors/sponsor5.png'
+import sponsor6 from '../assets/images/sponsors/sponsor6.svg'
+import sponsor7 from '../assets/images/sponsors/sponsor7.svg'
+import sponsor8 from '../assets/images/sponsors/sponsor8.svg'
+import sponsor9 from '../assets/images/sponsors/sponsor9.png'
+import sponsor10 from '../assets/images/sponsors/sponsor10.png'
+import sponsor11 from '../assets/images/sponsors/sponsor11.png'
 
 
 class Index extends React.Component {
@@ -151,27 +161,27 @@ class Index extends React.Component {
             <ul className="sponsors">
                 <div id="sponsors-lg-swiper" className="swiper-container">
                   <div className="swiper-wrapper">
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor1} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor2} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor3} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor4} alt="sponsor" title="sponsor"/></a></div>
                   </div>
                 </div>
                 <div id="sponsors-md-swiper" className="swiper-container">
                   <div className="swiper-wrapper">
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor5} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor6} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor7} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor8} alt="sponsor" title="sponsor"/></a></div>
                   </div>
                 </div>
                 <div id="sponsors-sm-swiper" className="swiper-container">
                   <div className="swiper-wrapper">
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
-                    <div className="swiper-slide"><a href="#"><img src={placeholder} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor9} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor10} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor11} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor6} alt="sponsor" title="sponsor"/></a></div>
+                    <div className="swiper-slide"><a href="#"><img src={sponsor5} alt="sponsor" title="sponsor"/></a></div>
                   </div>
                 </div>
             </ul>
