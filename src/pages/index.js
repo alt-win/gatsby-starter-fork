@@ -205,8 +205,7 @@ class Index extends React.Component {
                 <h3>Eléonore Blanc</h3>
                 <h4>Event Organizer</h4>
                 <p>
-                  Elenore is the organizer of the past two bitcoin cash DevCon events both in the Netherlands, and SanFransisco.
-                  Her main platform is <a target="_blank" href="https://cryptocanal.org">CryptoCanal</a>.
+                  Elenore organized the last BCHDevCon hackathon in Amsterdam. She works with <a target="_blank" href="https://www.satoshisangels.com">Satoshi's Angels</a> to spread knowledge about p2p electronic cash.
                 </p>
               </li>
 
