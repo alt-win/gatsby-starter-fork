@@ -18,7 +18,6 @@ import donateIcon from '../assets/images/join/donate.svg'
 import helpIcon from '../assets/images/join/help.svg'
 import person from '../assets/images/person.jpg'
 
-
 class Index extends React.Component {
   constructor(props) {
     super(props)
@@ -121,7 +120,9 @@ class Index extends React.Component {
                   </div>
                 </div>
               </div>
-              <p>The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  </p>
+              <p>The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  </p><br></br>
+              <h3>Address</h3>
+              <p><address>614 East Manchester Blvd, Inglewood, CA 90301, United States</address></p>
           </div>
           </section>
           <section id="sponsors" className="main special">
@@ -218,7 +219,6 @@ class Index extends React.Component {
                 <p>
                   Chris is the founder of the <a target="_blank" href="https://psfoundation.cash">Permissionless Software Foundation</a>, which seeks to
                   build out the infrastructure for bitcoin cash full stack developers.
-
                 </p>
               </li>
 
@@ -233,6 +233,46 @@ class Index extends React.Component {
                   which is currently the most popular fullnode implementation for Bitcoin Cash.
                 </p>
               </li>
+              <li>
+              <span className="icon major spotlight image fit">
+                <img src="https://avatars3.githubusercontent.com/u/44456286?s=400&u=ba1782a28c76c8c7a2e9908ad7977c31517e33b8&v=4"></img>
+              </span>
+              <h3>JT Freeman</h3>
+              <h4>Mentor</h4>
+              <p>
+                JT is a developer who has contributed a lot to the SLP ecosystem including the npm-js library.
+              </p>
+            </li>
+              <li>
+              <span className="icon major spotlight image fit">
+                <img src="https://bitcoincashnode.org/static/img/team/calin.jpg"></img>
+              </span>
+              <h3>Calin Culianu</h3>
+              <h4>Mentor</h4>
+              <p>
+                Calin is an Electron Cash maintainer, Fulcrum creator, Bitcoin Cash Node developer, and former Bitcoin ABC co-founder.
+              </p>
+            </li>
+            <li>
+              <span className="icon major spotlight image fit">
+                <img src="https://bitcoincashnode.org/static/img/team/im_uname.png"></img>
+              </span>
+              <h3>Imaginary Username</h3>
+              <h4>Mentor</h4>
+              <p>
+                Uname is a Bitcoin Cash dev infrastructure provider, and contributor to various projects.
+              </p>
+            </li>
+            <li>
+              <span className="icon major spotlight image fit">
+                <img src="https://gitlab.com/uploads/-/system/user/avatar/630849/avatar.png"></img>
+              </span>
+              <h3>Tom Zander</h3>
+              <h4>Mentor</h4>
+              <p>
+                Tom Zander is a C++ developer, and creator of <a href="https://flowee.org/">Flowee the Hub</a> bitcoin cash node.
+              </p>
+            </li>
 
               <li className="fullteam-item">
                 <span className="icon major spotlight image fit">
@@ -244,7 +284,6 @@ class Index extends React.Component {
                   Let us know if you'd like to be a mentor.
                 </p>
               </li>
-
 
 
             </ul>
