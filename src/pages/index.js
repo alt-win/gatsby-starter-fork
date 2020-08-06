@@ -82,7 +82,7 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Bitcoin Cash DevCon III - Los Angeles, California</h2>
+                  <h2>Bitcoin Cash DevCon III - Los Angeles, California (and online)</h2>
                 </header>
                 <p>
                   The community gathers to host BCHDevcon III, a 32 hours non-stop
