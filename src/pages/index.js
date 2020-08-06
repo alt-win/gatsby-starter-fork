@@ -93,8 +93,11 @@ class Index extends React.Component {
 
                 <ul className="actions">
                   <li>
-                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSd1OInMhJczCwTD-5ch5Lx5F7nFpdIKmLwpKUJ2SYWSrxUGTw/viewform?usp=sf_link" className="button">
+                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSd1OInMhJczCwTD-5ch5Lx5F7nFpdIKmLwpKUJ2SYWSrxUGTw/viewform?usp=sf_link" target="_blank" className="button">
                       Register for Free
+                    </Link>
+                    <Link to="https://discord.gg/NnmvC7c" target="_blank" className="button">
+                      Join our Discord
                     </Link>
                   </li>
                 </ul>
@@ -129,24 +132,15 @@ class Index extends React.Component {
             <header className="major">
               <h2>Sponsors</h2>
             </header>
-            <p>coming soon</p>
             <ul className="sponsors">
               <div className="lg-sponsors">
-                <a href="#"><div className="sponsor-logo sponsor1"></div></a>
-                <a href="#"><div className="sponsor-logo sponsor2"></div></a>
-                <a href="#"><div className="sponsor-logo sponsor3"></div></a>
+
               </div>
               <div className="md-sponsors">
-                <a href="#"><div className="sponsor-logo sponsor4"></div></a>
-                <a href="#"><div className="sponsor-logo sponsor5"></div></a>
-                <a href="#"><div className="sponsor-logo sponsor6"></div></a>
-                <a href="#"><div className="sponsor-logo sponsor7"></div></a>
+
               </div>
               <div className="sm-sponsors">
-                <a href="#"><div className="sponsor-logo sponsor8"></div></a>
-                <a href="#"><div className="sponsor-logo sponsor9"></div></a>
-                <a href="#"><div className="sponsor-logo sponsor10"></div></a>
-                <a href="#"><div className="sponsor-logo sponsor11"></div></a>
+                <a href="https://generalprotocols.com/" target="_blank"><div className="sponsor-logo image sponsor12"></div><br></br><span>General Protocols</span></a>
               </div>
             </ul>
           </section>
@@ -158,11 +152,11 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                 <h3>Compete in BCH DevCon</h3>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1OInMhJczCwTD-5ch5Lx5F7nFpdIKmLwpKUJ2SYWSrxUGTw/viewform?usp=sf_link"><img className="mt-sm-25" src={competeIcon} /></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1OInMhJczCwTD-5ch5Lx5F7nFpdIKmLwpKUJ2SYWSrxUGTw/viewform?usp=sf_link" target="_blank"><img className="mt-sm-25" src={competeIcon} /></a>
               </li>
               <li>
                 <h3>Help fund our FlipStarter Campaign</h3>
-                <a href="http://flipstarter.devcon.cash"><img src={helpIcon} /></a>
+                <a href="http://flipstarter.devcon.cash" target="_blank"><img src={helpIcon} /></a>
               </li>
               <li>
                 <h3>Become a Sponsor</h3>
@@ -170,11 +164,11 @@ class Index extends React.Component {
               </li>
               <li className="donate">
                 <h3>Donate to our multi-sig addresses</h3>
-                <a href="https://explorer.bitcoin.com/bch/address/bitcoincash:pr508v7nem4z67u82rh5qqtpcctzkw6gfvdyvk6ag2"><img src={donateIcon} /></a>
+                <a href="https://explorer.bitcoin.com/bch/address/bitcoincash:pr508v7nem4z67u82rh5qqtpcctzkw6gfvdyvk6ag2" target="_blank"><img src={donateIcon} /></a>
               </li>
               <li>
                 <h3>Join Our Discord Server</h3>
-                <a href="https://discord.gg/NnmvC7c"><img src={discordIcon} /></a>
+                <a href="https://discord.gg/NnmvC7c" target="_blank"><img src={discordIcon} /></a>
               </li>
 
             </ul>
@@ -270,7 +264,7 @@ class Index extends React.Component {
               <h3>Tom Zander</h3>
               <h4>Mentor</h4>
               <p>
-                Tom Zander is a C++ developer, and creator of <a href="https://flowee.org/">Flowee the Hub</a> bitcoin cash node.
+                Tom Zander is a C++ developer, and creator of <a href="https://flowee.org/" target="_blank">Flowee the Hub</a> bitcoin cash node.
               </p>
             </li>
 

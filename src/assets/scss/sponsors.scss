@@ -1,5 +1,4 @@
 #sponsors{
-  display: none;
     a{
         border: none;
     }
@@ -12,7 +11,7 @@
         max-width: 100%;
     }
 
-    @each $sponsor in sponsor1, sponsor2, sponsor3, sponsor4, sponsor5, sponsor6, sponsor7, sponsor8, sponsor9, sponsor10, sponsor11{
+    @each $sponsor in sponsor1, sponsor2, sponsor3, sponsor4, sponsor5, sponsor6, sponsor7, sponsor8, sponsor9, sponsor10, sponsor11, sponsor12, {
         .#{$sponsor} {
             background-image: url('../images/sponsors/#{$sponsor}.jpg');
             max-width: 100%;
@@ -30,7 +29,7 @@
         }
         .sponsor-logo{
             width: 300px;
-            height: 100px;
+            height: 300px;
         }
     }
     .md-sponsors{
@@ -40,7 +39,7 @@
         }
         .sponsor-logo{
             width: 200px;
-            height: 80px;
+            height: 200px;
         }
         .sponsor7{
             background-size: contain;
@@ -53,7 +52,7 @@
         }
         .sponsor-logo{
             width: 150px;
-            height: 90px;
+            height: 150px;
         }
         .sponsor11{
             background-size: contain;
