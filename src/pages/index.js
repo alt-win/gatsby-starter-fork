@@ -86,7 +86,7 @@ class Index extends React.Component {
                 </header>
                 <p>
                   The community gathers to host BCHDevcon III, a 32 hours non-stop
-                  hackathon on the 5th and 6th of September 2020. A chance for all hackers to compete for top prizes.
+                  hackathon on the 5th and 6th of September 2020. The event is being hosted in Los Angeles, California with the option to join remotely, and provides a chance for all hackers to compete for top prizes.
 
                 </p>
 
