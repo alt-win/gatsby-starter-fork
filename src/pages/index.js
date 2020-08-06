@@ -78,7 +78,7 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="venue" className="main">
+          <section id="home" className="main">
             <div className="spotlight">
               <div className="content">
                 <header className="major">
@@ -106,6 +106,29 @@ class Index extends React.Component {
                 <img src={pic01} alt="" />
               </span>
             </div>
+            </section>
+
+            <section id="schedule" className="main">
+            <header className="major">
+              <h2>Schedule (Tentative)</h2>
+            </header>
+            <p>
+            <h3>Saturday September 5th, 2020 (All times are listed in PDT)</h3>
+              <ul>
+                <li><b>7:00</b> - Kickoff Breakfast @ Venue, Sponsor Message, Networking</li>
+                <li><b>10:00</b> - Coding Begins</li>
+              </ul>
+            <h3>Sunday, September 6th, 2020 </h3>
+              <ul>
+                <li><b>18:00</b> - Coding Stops, Project Presentations Begin</li>
+                <li><b>19:30</b> - Judging Begins</li>
+                <li><b>20:00</b> - After Party at Freshbrothers Pizza (Accepts BCH)</li>
+              </ul>
+
+            </p>
+            </section>
+
+            <section id="venue" className="main">
             <div>
             <header className="major">
               <h2>Venue Info</h2>
@@ -120,6 +143,9 @@ class Index extends React.Component {
                   </div>
                   <div className="swiper-slide">
                     <div className="place-img img3"></div>
+                  </div>
+                  <div className="swiper-slide">
+                    <div className="place-img img4"></div>
                   </div>
                 </div>
               </div>
@@ -140,6 +166,7 @@ class Index extends React.Component {
 
               </div>
               <div className="sm-sponsors">
+                <a href="https://fullstack.cash/" target="_blank"><div className="sponsor-logo image sponsor11"></div><br></br><span>FullStack.cash</span></a>
                 <a href="https://generalprotocols.com/" target="_blank"><div className="sponsor-logo image sponsor12"></div><br></br><span>General Protocols</span></a>
               </div>
             </ul>

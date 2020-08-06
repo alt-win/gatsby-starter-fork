@@ -24,7 +24,7 @@
         }
     }
 
-    @each $image in img1, img2, img3{
+    @each $image in img1, img2, img3, img4, {
         .#{$image} {
             background-image: url('../images/place-#{$image}.jpg');
             max-width: 100%;
