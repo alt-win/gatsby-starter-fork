@@ -82,7 +82,7 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Bitcoin Cash DevCon III - Los Angeles, California (and online)</h2>
+                  <h2>Bitcoin Cash DevCon III - Los Angeles, California (and remotely)</h2>
                 </header>
                 <p>
                   The community gathers to host BCHDevcon III, a 32 hours non-stop
@@ -166,8 +166,8 @@ class Index extends React.Component {
 
               </div>
               <div className="sm-sponsors">
-                <a href="https://fullstack.cash/" target="_blank"><div className="sponsor-logo image sponsor11"></div><br></br><span>FullStack.cash</span></a>
-                <a href="https://generalprotocols.com/" target="_blank"><div className="sponsor-logo image sponsor12"></div><br></br><span>General Protocols</span></a>
+                <a href="https://fullstack.cash/" target="_blank"><div className="sponsor-logo image sponsor11"><br></br><br></br><br></br><br></br><br></br><br></br><span>FullStack.cash</span></div></a>
+                <a href="https://generalprotocols.com/" target="_blank"><div className="sponsor-logo image sponsor12"><br></br><br></br><br></br><br></br><br></br><br></br><span>General Protocols</span></div></a>
               </div>
             </ul>
           </section>
@@ -261,7 +261,7 @@ class Index extends React.Component {
               <h3>JT Freeman</h3>
               <h4>Mentor</h4>
               <p>
-                JT is a developer who has contributed a lot to the SLP ecosystem including the npm-js library.
+                JT is the organizer of the SLP Virtual Hackathon, co-founder of <a href="https://fountainhead.cash/" target="_blank">fountainhead.cash</a> developer services, and SLP Foundation lead developer.
               </p>
             </li>
               <li>
@@ -291,7 +291,7 @@ class Index extends React.Component {
               <h3>Tom Zander</h3>
               <h4>Mentor</h4>
               <p>
-                Tom Zander is a C++ developer, and creator of <a href="https://flowee.org/" target="_blank">Flowee the Hub</a> bitcoin cash node.
+                Tom Zander is the founder of <a href="https://flowee.org/" target="_blank">Flowee</a>, has been active in Bitcoin for 6 years and today works on providing APIs, infrastructure and tools to the Bitcoin Cash economy.
               </p>
             </li>
 
