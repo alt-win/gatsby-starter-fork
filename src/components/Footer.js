@@ -11,6 +11,17 @@ const Footer = props => (
           <a href="mailto:contact@devcon.cash">Contact@DevCon.cash</a>
         </dd>
       </dl>
+      <h2>Donations:</h2>
+      <dl className="alt">
+        <dt>BCH:</dt>
+        <dd>
+          <a href="bitcoincash:pr508v7nem4z67u82rh5qqtpcctzkw6gfvdyvk6ag2">bitcoincash:pr508v7nem4z67u82rh5qqtpcctzkw6gfvdyvk6ag2</a>
+        </dd>
+        <dt>SLP:</dt>
+        <dd>
+          <a href="simpleledger:pr508v7nem4z67u82rh5qqtpcctzkw6gfvpl8d0ak5">simpleledger:pr508v7nem4z67u82rh5qqtpcctzkw6gfvpl8d0ak5</a>
+        </dd>
+      </dl>
       <ul className="icons">
         <li>
           <a href="https://t.me/BCHDevCon" className="icon fa-telegram alt">
