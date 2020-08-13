@@ -82,11 +82,11 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Bitcoin Cash DevCon III - Los Angeles, California (and remotely)</h2>
+                  <h2>Bitcoin Cash DevCon III - Global</h2>
                 </header>
                 <p>
                   The community gathers to host BCHDevcon III, a 32 hours non-stop
-                  hackathon on the 5th and 6th of September 2020. The event is being hosted in Los Angeles, California with the option to join remotely, and provides a chance for all hackers to compete for top prizes.
+                  hackathon on the 5th and 6th of September 2020. The event provides a chance for all hackers to compete for top prizes.
 
                 </p>
 
@@ -115,45 +115,19 @@ class Index extends React.Component {
             <p>
             <h3>Saturday September 5th, 2020 (All times are listed in PDT)</h3>
               <ul>
-                <li><b>7:00</b> - Kickoff Breakfast @ Venue, Sponsor Message, Networking</li>
                 <li><b>10:00</b> - Coding Begins</li>
               </ul>
             <h3>Sunday, September 6th, 2020 </h3>
               <ul>
                 <li><b>18:00</b> - Coding Stops, Project Presentations Begin</li>
                 <li><b>19:30</b> - Judging Begins</li>
-                <li><b>20:00</b> - After Party at Freshbrothers Pizza (Accepts BCH)</li>
+                <li><b>21:00</b> - Winners Announced</li>
               </ul>
 
             </p>
             </section>
 
-            <section id="venue" className="main">
-            <div>
-            <header className="major">
-              <h2>Venue Info</h2>
-            </header>
-              <div id="place-swiper" className="swiper-container">
-                <div className="swiper-wrapper">
-                  <div className="swiper-slide">
-                    <div className="place-img img1"></div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="place-img img2"></div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="place-img img3"></div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="place-img img4"></div>
-                  </div>
-                </div>
-              </div>
-              <p>The BCH DevCon is Being held at the Blockchain Plug near the LAX airport in Los Angeles.  </p><br></br>
-              <h3>Address</h3>
-              <p><address>614 East Manchester Blvd, Inglewood, CA 90301, United States</address></p>
-          </div>
-          </section>
+
           <section id="sponsors" className="main special">
             <header className="major">
               <h2>Sponsors</h2>
@@ -187,7 +161,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <h3>Become a Sponsor</h3>
-                <a href="mailto:contact@devcon.cash"><img className="mt-sm-25" src={sponsorIcon} /></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYomkD9j8rf4uZ_bX2SCcSZVroMFfP_15Hk4ISYR25ro3QTw/viewform?usp=sf_link" target="_blank"><img className="mt-sm-25" src={sponsorIcon} /></a>
               </li>
               <li className="donate">
                 <h3>Donate to our multi-sig addresses</h3>
