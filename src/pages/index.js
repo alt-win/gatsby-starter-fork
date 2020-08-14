@@ -229,6 +229,26 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
+                <span className="icon major spotlight image fit">
+                  <img src="https://i.ibb.co/59snY6t/vinarmani.jpg" />
+                </span>
+                <h3>Vin Armani</h3>
+                <h4>Presenter</h4>
+                <p>
+                  Vin is the CTO of <a href="https://cointext.io/" target="_blank">CoinText</a>.  Some of his other contributions to bitcoin cash include the SLP postage protocol, and the SWAP protocol.
+                </p>
+              </li>
+              <li>
+                <span className="icon major spotlight image fit">
+                  <img src="https://i.ibb.co/1fcWMRg/collinenstad2.jpg" />
+                </span>
+                <h3>Collin Enstad</h3>
+                <h4>Media</h4>
+                <p>
+                  Collin is the #1 livestreamer in bitcoin cash, and will be streaming through the DevCon.
+                </p>
+              </li>
+              <li>
               <span className="icon major spotlight image fit">
                 <img src="https://avatars3.githubusercontent.com/u/44456286?s=400&u=ba1782a28c76c8c7a2e9908ad7977c31517e33b8&v=4"></img>
               </span>
@@ -248,7 +268,7 @@ class Index extends React.Component {
                 Calin is an Electron Cash maintainer, Fulcrum creator, Bitcoin Cash Node developer, and former Bitcoin ABC co-founder.
               </p>
             </li>
-            <li>
+            <li className="fullteam-item">
               <span className="icon major spotlight image fit">
                 <img src="https://bitcoincashnode.org/static/img/team/im_uname.png"></img>
               </span>
@@ -258,7 +278,18 @@ class Index extends React.Component {
                 Uname is a Bitcoin Cash dev infrastructure provider, and contributor to various projects.
               </p>
             </li>
-            <li>
+            <li className="fullteam-item">
+            <span className="icon major spotlight image fit">
+              <img src="https://i.ibb.co/1zYDHSC/Fernando-Knuth-1x1.jpg" />
+              </span>
+              <h3>Fernando Pelliccioni</h3>
+              <h4>Mentor</h4>
+              <p>
+                Fernando is the founder and lead developer of <a href="https://kth.cash/" target="_blank">Knuth</a>, Bitcoin Cash Node contributor, and former Bitcoin ABC developer.
+              </p>
+            </li>
+
+              <li className="fullteam-item">
               <span className="icon major spotlight image fit">
                 <img src="https://gitlab.com/uploads/-/system/user/avatar/630849/avatar.png"></img>
               </span>
@@ -267,7 +298,7 @@ class Index extends React.Component {
               <p>
                 Tom Zander is the founder of <a href="https://flowee.org/" target="_blank">Flowee</a>, has been active in Bitcoin for 6 years and today works on providing APIs, infrastructure and tools to the Bitcoin Cash economy.
               </p>
-            </li>
+              </li>
 
               <li className="fullteam-item">
                 <span className="icon major spotlight image fit">
@@ -276,7 +307,7 @@ class Index extends React.Component {
                 <h3>More to come here. . </h3>
                 <h4>Mentor</h4>
                 <p>
-                  Let us know if you'd like to be a mentor.
+                  <a href="mailto:contact@devcon.cash">Let us know</a> if you'd like to be a mentor.
                 </p>
               </li>
 
