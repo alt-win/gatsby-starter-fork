@@ -46,7 +46,7 @@ class Index extends React.Component {
 
     for(let i=0; i<element.length; i++)
     {
-      if (element[i].style.display === "none") {
+      if (element[i].style.display != "block") {
         element[i].style.display = "block";
         btn.innerText = "View less";
       } else {
