@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/pic01.svg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -17,6 +17,7 @@ import discordIcon from '../assets/images/join/discord.svg'
 import donateIcon from '../assets/images/join/donate.svg'
 import helpIcon from '../assets/images/join/help.svg'
 import person from '../assets/images/person.jpg'
+import githubIcon from '../assets/images/github.svg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -85,9 +86,13 @@ class Index extends React.Component {
                   <h2>Bitcoin Cash DevCon III - Global</h2>
                 </header>
                 <p>
-                  The community gathers to host BCHDevcon III, a 32 hours non-stop
-                  hackathon on the 5th and 6th of September 2020. The event provides a chance for all hackers to compete for top prizes.
+                  The community gathers to host BCHDevcon III, a 72 hours non-stop
+                  hackathon on the 4th through the 6th of September 2020. The event provides a chance for all hackers to compete for top prizes.
 
+                </p>
+
+                <p>
+                  Project votes from sponsors will be casted by sending BCH Devcon tokens to teams' SLP addresses, and prizes will be airdroped using an SLP dividend calculator.
                 </p>
 
 
@@ -110,21 +115,32 @@ class Index extends React.Component {
 
             <section id="schedule" className="main">
             <header className="major">
-              <h2>Schedule (Tentative)</h2>
+              <h2>Basic Schedule</h2>
             </header>
             <p>
-            <h3>Saturday September 5th, 2020 (All times are listed in PDT)</h3>
+            <h3>Friday September 4th, 2020 (All times are listed in UTC)</h3>
               <ul>
-                <li><b>10:00</b> - Coding Begins</li>
+                <li><b>00:00</b> - Coding Begins  (Event Kickoff LiveStream)</li>
+                <li><b>02:00</b> - Workshops Begin  (~ every 4 hours)</li>
+
+              </ul>
+            <h3>Saturday September 5th, 2020</h3>
+              <ul>
+                <li>Coding Continues</li>
               </ul>
             <h3>Sunday, September 6th, 2020 </h3>
               <ul>
-                <li><b>18:00</b> - Coding Stops, Project Presentations Begin</li>
-                <li><b>19:30</b> - Judging Begins</li>
-                <li><b>21:00</b> - Winners Announced</li>
+                <li><b>00:00 (Monday, 7th)</b> - Coding Stops</li>
               </ul>
-
             </p>
+
+            <ul className="actions">
+              <li>
+                <Link to="https://github.com/BCHDEVCON3/devcon-portal" target="_blank" className="button">
+                  View Rules + Details
+                </Link>
+              </li>
+            </ul>
             </section>
 
 
@@ -144,6 +160,30 @@ class Index extends React.Component {
                 <a href="https://generalprotocols.com/" target="_blank"><div className="sponsor-logo image sponsor12"><br></br><br></br><br></br><br></br><br></br><br></br><span>General Protocols</span></div></a>
               </div>
             </ul>
+          </section>
+          <section id="Workshops" className="main special">
+            <header className="major">
+              <h2>Workshops</h2>
+            </header>
+
+            <ul>
+              <li>
+                <h3>Bitcoin Cash JavaScript Library - Chris Troutner</h3>
+              </li>
+              <li>
+                <h3>SLP JavaScript Library - JT Freeman</h3>
+              </li>
+              <li>
+                <h3>SWAP Protocol - Vin Armani</h3>
+              </li>
+              <li>
+                <h3>Bitcoin Cash Smart Cards - Tobias Ruck</h3>
+              </li>
+              <li>
+                <h3>BCH C#/.NET API - Fernando Pelliccioni</h3>
+              </li>
+            </ul>
+
           </section>
           <section id="join" className="main special">
             <header className="major">
@@ -171,6 +211,10 @@ class Index extends React.Component {
                 <h3>Join Our Discord Server</h3>
                 <a href="https://discord.gg/NnmvC7c" target="_blank"><img src={discordIcon} /></a>
               </li>
+              <li>
+                <h3>View Our Github Organization</h3>
+                <a href="https://github.com/BCHDEVCON3" target="_blank"><img src={githubIcon} /></a>
+              </li>
 
             </ul>
 
@@ -183,7 +227,7 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                 <span className="icon major spotlight image fit">
-                  <img src="https://pbs.twimg.com/profile_images/1147044290100678656/rDWEGeFw_400x400.png"></img>
+                  <img src="https://i.ibb.co/yyc519c/image.png"></img>
                 </span>
                 <h3>Christian#1000♦️</h3>
                 <h4>Event Host</h4>
@@ -196,7 +240,7 @@ class Index extends React.Component {
 
               <li>
                 <span className="icon major spotlight image fit">
-                  <img src="https://pbs.twimg.com/profile_images/1113077204068503552/OFQH0xXt_400x400.png"></img>
+                  <img src="https://i.ibb.co/xCpnTRs/image.png"></img>
                 </span>
                 <h3>Eléonore Blanc</h3>
                 <h4>Event Organizer</h4>
@@ -207,7 +251,7 @@ class Index extends React.Component {
 
               <li>
                 <span className="icon major spotlight image fit">
-                  <img src="https://pbs.twimg.com/profile_images/952295826658795520/7ICtooLL_400x400.jpg"></img>
+                  <img src="https://i.ibb.co/XkW6Ns6/image.png"></img>
                 </span>
                 <h3>Chris Troutner</h3>
                 <h4>Mentor</h4>
@@ -240,6 +284,16 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major spotlight image fit">
+                  <img src="https://i.ibb.co/sp45H5v/image.png" />
+                </span>
+                <h3>Tobias Ruck</h3>
+                <h4>Presenter</h4>
+                <p>
+                  Tobias is the CEO of <a href="https://be.cash/" target="_blank">be.cash</a>, an upcoming NFC card payment platform for Bitcoin Cash.  He has also proposed <a href="https://mitra.be.cash/" target="_blank">Mitra</a>.
+                </p>
+              </li>
+              <li>
+                <span className="icon major spotlight image fit">
                   <img src="https://i.ibb.co/1fcWMRg/collinenstad2.jpg" />
                 </span>
                 <h3>Collin Enstad</h3>
@@ -258,7 +312,7 @@ class Index extends React.Component {
                 JT is the organizer of the SLP Virtual Hackathon, co-founder of <a href="https://fountainhead.cash/" target="_blank">fountainhead.cash</a> developer services, and SLP Foundation lead developer.
               </p>
             </li>
-              <li>
+              <li className="fullteam-item">
               <span className="icon major spotlight image fit">
                 <img src="https://bitcoincashnode.org/static/img/team/calin.jpg"></img>
               </span>
