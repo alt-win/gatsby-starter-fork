@@ -182,6 +182,9 @@ class Index extends React.Component {
               <li>
                 <h3>BCH C#/.NET API - Fernando Pelliccioni</h3>
               </li>
+              <li>
+                <h3>Introduction to Cashscript - Jerry Qian</h3>
+              </li>
             </ul>
 
           </section>
@@ -341,6 +344,17 @@ class Index extends React.Component {
               <p>
                 Fernando is the founder and lead developer of <a href="https://kth.cash/" target="_blank">Knuth</a>, Bitcoin Cash Node contributor, and former Bitcoin ABC developer.
               </p>
+            </li>
+
+            <li className="fullteam-item">
+            <span className="icon major spotlight image fit">
+              <img src="https://i.ibb.co/Y73ZN7t/image.png"></img>
+            </span>
+            <h3>Jerry Qian</h3>
+            <h4>Mentor</h4>
+            <p>
+              Jerry is a co-founder of <a href="http://bitcoinbay.tech/" target="_blank">Bitcoin Bay</a>, a community-driven company for blockchain adoption based in Toronto.
+            </p>
             </li>
 
               <li className="fullteam-item">
