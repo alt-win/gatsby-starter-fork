@@ -24,18 +24,18 @@ const Footer = props => (
       </dl>
       <ul className="icons">
         <li>
-          <a href="https://t.me/BCHDevCon" className="icon fa-telegram alt">
+          <a href="https://t.me/BCHDevCon" target="_blank" className="icon fa-telegram alt">
             <span className="label">Telegram</span>
           </a>
         </li>
 
         <li>
-          <a href="https://twitter.com/DevConcash" className="icon fa-twitter alt">
+          <a href="https://twitter.com/DevConcash" target="_blank" className="icon fa-twitter alt">
             <span className="label">Twitter</span>
           </a>
         </li>
         <li>
-          <a href="https://discord.gg/NnmvC7c" className="icon fa-discord alt">
+          <a href="https://discord.gg/NnmvC7c" target="_blank" className="icon fa-discord alt">
             <span className="label">Discord</span>
           </a>
         </li>
