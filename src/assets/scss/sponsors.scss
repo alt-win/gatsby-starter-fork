@@ -51,11 +51,18 @@
             justify-content: space-around;
         }
         .sponsor-logo{
-            width: 150px;
-            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 150px;
+            }
         }
-        .sponsor11{
-            background-size: contain;
+        .sponsor-name{
+            padding-top: 15px;
+            @media only screen and (min-width: 992px){
+                padding-top: 30px;
+            }
         }
     }
 }
