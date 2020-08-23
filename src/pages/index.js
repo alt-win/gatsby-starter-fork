@@ -158,6 +158,8 @@ class Index extends React.Component {
               <div className="sm-sponsors">
                 <a href="https://fullstack.cash/" target="_blank"><div className="sponsor-logo image sponsor11"><br></br><br></br><br></br><br></br><br></br><br></br><span>FullStack.cash</span></div></a>
                 <a href="https://generalprotocols.com/" target="_blank"><div className="sponsor-logo image sponsor12"><br></br><br></br><br></br><br></br><br></br><br></br><span>General Protocols</span></div></a>
+                <a href="https://bitcoinbay.tech/" target="_blank"><div className="sponsor-logo image sponsor13"><br></br><br></br><br></br><br></br><br></br><br></br><span>Bitcoin Bay</span></div></a>
+
               </div>
             </ul>
           </section>
@@ -232,7 +234,7 @@ class Index extends React.Component {
                 <span className="icon major spotlight image fit">
                   <img src="https://i.ibb.co/yyc519c/image.png"></img>
                 </span>
-                <h3>Christian#1000♦️</h3>
+                <h3>Christian</h3>
                 <h4>Event Host</h4>
                 <p>
                   Christian is a Bitcoin Cash leader in southern California, USA
