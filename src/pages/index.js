@@ -158,7 +158,7 @@ class Index extends React.Component {
               <div className="sm-sponsors">
                 <a href="https://fullstack.cash/" target="_blank"><div className="sponsor-logo image sponsor11"><br></br><br></br><br></br><br></br><br></br><br></br><span>FullStack.cash</span></div></a>
                 <a href="https://generalprotocols.com/" target="_blank"><div className="sponsor-logo image sponsor12"><br></br><br></br><br></br><br></br><br></br><br></br><span>General Protocols</span></div></a>
-                <a href="https://bitcoinbay.tech/" target="_blank"><div className="sponsor-logo image sponsor13"><br></br><br></br><br></br><br></br><br></br><br></br><span>Bitcoin Bay</span></div></a>
+                <a href="https://bitcoinbay.ca/" target="_blank"><div className="sponsor-logo image sponsor13"><br></br><br></br><br></br><br></br><br></br><br></br><span>Bitcoin Bay</span></div></a>
 
               </div>
             </ul>
@@ -355,7 +355,7 @@ class Index extends React.Component {
             <h3>Jerry Qian</h3>
             <h4>Mentor</h4>
             <p>
-              Jerry is a co-founder of <a href="http://bitcoinbay.tech/" target="_blank">Bitcoin Bay</a>, a community-driven company for blockchain adoption based in Toronto.
+              Jerry is a co-founder of <a href="http://bitcoinbay.ca/" target="_blank">Bitcoin Bay</a>, a community-driven company for blockchain adoption based in Toronto.
             </p>
             </li>
 
