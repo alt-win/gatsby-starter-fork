@@ -163,7 +163,7 @@ class Index extends React.Component {
               </div>
             </ul>
           </section>
-          <section id="Workshops" className="main special">
+          <section id="workshops" className="main special">
             <header className="major">
               <h2>Workshops</h2>
             </header>
