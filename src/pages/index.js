@@ -171,7 +171,7 @@ class Index extends React.Component {
                   </div>
                   <p className="sponsor-name">General Protocols</p>
                 </a>
-                <a href="https://bitcoinbay.ca/" target="_blank">
+                <a href="http://bitcoinbay.ca/" target="_blank">
                   <div className="sponsor-logo">
                     <img className="sponsor-logo" src={bitcoinBayIcon} alt="Bitcoin Bay" />
                   </div>
