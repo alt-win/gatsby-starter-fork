@@ -18,6 +18,9 @@ import donateIcon from '../assets/images/join/donate.svg'
 import helpIcon from '../assets/images/join/help.svg'
 import person from '../assets/images/person.jpg'
 import githubIcon from '../assets/images/github.svg'
+import fullstackIcon from '../assets/images/sponsors/sponsor11.jpg'
+import generalProtocolsIcon from '../assets/images/sponsors/sponsor12.jpg'
+import bitcoinBayIcon from '../assets/images/sponsors/sponsor13.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -156,10 +159,24 @@ class Index extends React.Component {
 
               </div>
               <div className="sm-sponsors">
-                <a href="https://fullstack.cash/" target="_blank"><div className="sponsor-logo image sponsor11"><br></br><br></br><br></br><br></br><br></br><br></br><span>FullStack.cash</span></div></a>
-                <a href="https://generalprotocols.com/" target="_blank"><div className="sponsor-logo image sponsor12"><br></br><br></br><br></br><br></br><br></br><br></br><span>General Protocols</span></div></a>
-                <a href="https://bitcoinbay.ca/" target="_blank"><div className="sponsor-logo image sponsor13"><br></br><br></br><br></br><br></br><br></br><br></br><span>Bitcoin Bay</span></div></a>
-
+                <a href="https://fullstack.cash/" target="_blank">
+                  <div className="sponsor-logo">
+                    <img src={fullstackIcon} alt="FullStack.cash" />
+                  </div>
+                  <p className="sponsor-name">FullStack.cash</p>
+                </a>
+                <a href="https://generalprotocols.com/" target="_blank">
+                  <div className="sponsor-logo">
+                    <img className="sponsor-logo" src={generalProtocolsIcon} alt="General Protocols" />
+                  </div>
+                  <p className="sponsor-name">General Protocols</p>
+                </a>
+                <a href="https://bitcoinbay.ca/" target="_blank">
+                  <div className="sponsor-logo">
+                    <img className="sponsor-logo" src={bitcoinBayIcon} alt="Bitcoin Bay" />
+                  </div>
+                  <p className="sponsor-name">Bitcoin Bay</p>
+                </a>
               </div>
             </ul>
           </section>

@@ -11,13 +11,6 @@
         max-width: 100%;
     }
 
-    @each $sponsor in sponsor1, sponsor2, sponsor3, sponsor4, sponsor5, sponsor6, sponsor7, sponsor8, sponsor9, sponsor10, sponsor11, sponsor12, sponsor13, {
-        .#{$sponsor} {
-            background-image: url('../images/sponsors/#{$sponsor}.jpg');
-            max-width: 100%;
-        }
-    }
-
     .clearfix{
         clear: both;
     }
@@ -51,11 +44,18 @@
             justify-content: space-around;
         }
         .sponsor-logo{
-            width: 150px;
-            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 150px;
+            }
         }
-        .sponsor11{
-            background-size: contain;
+        .sponsor-name{
+            padding-top: 15px;
+            @media only screen and (min-width: 992px){
+                padding-top: 30px;
+            }
         }
     }
 }

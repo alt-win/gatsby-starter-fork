@@ -12,7 +12,7 @@ const Footer = props => (
         </dd>
       </dl>
       <h2>Donations:</h2>
-      <dl className="alt">
+      <dl className="alt donations-address-container">
         <dt>BCH:</dt>
         <dd>
           <a href="bitcoincash:pr508v7nem4z67u82rh5qqtpcctzkw6gfvdyvk6ag2">bitcoincash:pr508v7nem4z67u82rh5qqtpcctzkw6gfvdyvk6ag2</a>
