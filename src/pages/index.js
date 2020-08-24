@@ -21,6 +21,10 @@ import githubIcon from '../assets/images/github.svg'
 import fullstackIcon from '../assets/images/sponsors/sponsor11.jpg'
 import generalProtocolsIcon from '../assets/images/sponsors/sponsor12.jpg'
 import bitcoinBayIcon from '../assets/images/sponsors/sponsor13.jpg'
+import grapefruitTradingIcon from '../assets/images/sponsors/sponsor14.jpg'
+import satoshisAngelsIcon from '../assets/images/sponsors/sponsor15.jpg'
+
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -176,6 +180,18 @@ class Index extends React.Component {
                     <img className="sponsor-logo" src={bitcoinBayIcon} alt="Bitcoin Bay" />
                   </div>
                   <p className="sponsor-name">Bitcoin Bay</p>
+                </a>
+                <a href="http://gfru.it/" target="_blank">
+                  <div className="sponsor-logo">
+                    <img className="sponsor-logo" src={grapefruitTradingIcon} alt="Grapefruit Trading" />
+                  </div>
+                  <p className="sponsor-name">Grapefruit Trading</p>
+                </a>
+                <a href="http://satoshisangels.com/" target="_blank">
+                  <div className="sponsor-logo">
+                    <img className="sponsor-logo" src={satoshisAngelsIcon} alt="Satoshi's Angels" />
+                  </div>
+                  <p className="sponsor-name">Satoshi's Angels</p>
                 </a>
               </div>
             </ul>
