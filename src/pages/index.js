@@ -378,7 +378,7 @@ class Index extends React.Component {
               <h3>Calin Culianu</h3>
               <h4>Mentor</h4>
               <p>
-                Calin is an Electron Cash maintainer, Fulcrum creator, Bitcoin Cash Node developer, and former Bitcoin ABC co-founder.
+                Calin is an Electron Cash maintainer, Fulcrum creator, & Bitcoin Cash Node developer, and former Bitcoin ABC contributor.
               </p>
             </li>
             <li className="fullteam-item">
