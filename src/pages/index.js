@@ -23,6 +23,9 @@ import generalProtocolsIcon from '../assets/images/sponsors/sponsor12.jpg'
 import bitcoinBayIcon from '../assets/images/sponsors/sponsor13.jpg'
 import grapefruitTradingIcon from '../assets/images/sponsors/sponsor14.jpg'
 import satoshisAngelsIcon from '../assets/images/sponsors/sponsor15.jpg'
+import bitcoinComIcon from '../assets/images/sponsors/sponsor16.jpg'
+
+
 
 
 
@@ -160,7 +163,12 @@ class Index extends React.Component {
 
               </div>
               <div className="md-sponsors">
-
+              <a href="http://satoshisangels.com/" target="_blank">
+                <div className="sponsor-logo">
+                  <img className="sponsor-logo" src={bitcoinComIcon} alt="Bitcoin.com" />
+                </div>
+                <p className="sponsor-name">Bitcoin.com</p>
+              </a>
               </div>
               <div className="sm-sponsors">
                 <a href="https://fullstack.cash/" target="_blank">
@@ -206,13 +214,16 @@ class Index extends React.Component {
                 <h3>Bitcoin Cash JavaScript Library - Chris Troutner</h3>
               </li>
               <li>
-                <h3>SLP JavaScript Library - JT Freeman</h3>
+                <h3>Introduction to Simple Ledger Protocol (SLP) Tokens - SLP Foundation</h3>
               </li>
               <li>
                 <h3>SWAP Protocol - Vin Armani</h3>
               </li>
               <li>
                 <h3>Bitcoin Cash Smart Cards - Tobias Ruck</h3>
+              </li>
+              <li>
+                <h3>Bip70 Payment Protocol - Steven Zeiler</h3>
               </li>
               <li>
                 <h3>BCH C#/.NET API - Fernando Pelliccioni</h3>
@@ -350,6 +361,16 @@ class Index extends React.Component {
                 JT is the organizer of the SLP Virtual Hackathon, co-founder of <a href="https://fountainhead.cash/" target="_blank">fountainhead.cash</a> developer services, and SLP Foundation lead developer.
               </p>
             </li>
+              <li className="fullteam-item">
+              <span className="icon major spotlight image fit">
+                <img src="https://i.ibb.co/Ks6mVwD/image.png"></img>
+                </span>
+                <h3>Steven Zeiler</h3>
+                <h4>Presenter</h4>
+                <p>
+                Steven is <a href="https://anypayinc.com/" target="_blank">Anypay’s</a> lead developer & CEO.  His goal is to make crypto payments as frictionless  & secure as possible.
+              </p>
+          </li>
               <li className="fullteam-item">
               <span className="icon major spotlight image fit">
                 <img src="https://bitcoincashnode.org/static/img/team/calin.jpg"></img>
