@@ -371,16 +371,6 @@ class Index extends React.Component {
                 Steven is <a href="https://anypayinc.com/" target="_blank">Anypay’s</a> lead developer & CEO.  His goal is to make crypto payments as frictionless  & secure as possible.
               </p>
           </li>
-              <li className="fullteam-item">
-              <span className="icon major spotlight image fit">
-                <img src="https://bitcoincashnode.org/static/img/team/calin.jpg"></img>
-              </span>
-              <h3>Calin Culianu</h3>
-              <h4>Mentor</h4>
-              <p>
-                Calin is an Electron Cash maintainer, Fulcrum creator, Bitcoin Cash Node developer, and former Bitcoin ABC contributor.
-              </p>
-            </li>
             <li className="fullteam-item">
               <span className="icon major spotlight image fit">
                 <img src="https://bitcoincashnode.org/static/img/team/im_uname.png"></img>
