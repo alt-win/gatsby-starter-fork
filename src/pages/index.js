@@ -203,12 +203,6 @@ class Index extends React.Component {
                   </div>
                   <p className="sponsor-name">Satoshi's Angels</p>
                 </a>
-              <a href="http://anypayinc.com/" target="_blank">
-                <div className="sponsor-logo">
-                  <img className="sponsor-logo" src={anyPayIcon} alt="AnyPay INC" />
-                </div>
-                <p className="sponsor-name">AnyPay</p>
-              </a>
             </div>
             </ul>
           </section>
