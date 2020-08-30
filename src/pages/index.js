@@ -363,16 +363,6 @@ class Index extends React.Component {
                 JT is the organizer of the SLP Virtual Hackathon, co-founder of <a href="https://fountainhead.cash/" target="_blank">fountainhead.cash</a> developer services, and SLP Foundation lead developer.
               </p>
             </li>
-              <li className="fullteam-item">
-              <span className="icon major spotlight image fit">
-                <img src="https://i.ibb.co/Ks6mVwD/image.png"></img>
-                </span>
-                <h3>Steven Zeiler</h3>
-                <h4>Presenter</h4>
-                <p>
-                Steven is <a href="https://anypayinc.com/" target="_blank">Anypay’s</a> lead developer & CEO.  His goal is to make crypto payments as frictionless  & secure as possible.
-              </p>
-          </li>
             <li className="fullteam-item">
               <span className="icon major spotlight image fit">
                 <img src="https://bitcoincashnode.org/static/img/team/im_uname.png"></img>
