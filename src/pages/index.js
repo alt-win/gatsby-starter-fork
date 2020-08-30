@@ -24,6 +24,8 @@ import bitcoinBayIcon from '../assets/images/sponsors/sponsor13.jpg'
 import grapefruitTradingIcon from '../assets/images/sponsors/sponsor14.jpg'
 import satoshisAngelsIcon from '../assets/images/sponsors/sponsor15.jpg'
 import bitcoinComIcon from '../assets/images/sponsors/sponsor16.jpg'
+import anyPayIcon from '../assets/images/sponsors/sponsor17.jpg'
+
 
 
 
@@ -201,7 +203,13 @@ class Index extends React.Component {
                   </div>
                   <p className="sponsor-name">Satoshi's Angels</p>
                 </a>
-              </div>
+              <a href="http://anypayinc.com/" target="_blank">
+                <div className="sponsor-logo">
+                  <img className="sponsor-logo" src={anyPayIcon} alt="AnyPay INC" />
+                </div>
+                <p className="sponsor-name">AnyPay</p>
+              </a>
+            </div>
             </ul>
           </section>
           <section id="workshops" className="main special">
