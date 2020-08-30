@@ -225,7 +225,7 @@ class Index extends React.Component {
                 <h3>Bitcoin Cash Smart Cards - Tobias Ruck</h3>
               </li>
               <li>
-                <h3>Bip70 Payment Protocol - Steven Zeiler</h3>
+                <h3>Bip70 Payment Protocol</h3>
               </li>
               <li>
                 <h3>BCH C#/.NET API - Fernando Pelliccioni</h3>
