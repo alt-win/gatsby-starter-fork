@@ -216,7 +216,10 @@ class Index extends React.Component {
                 <h3>Bitcoin Cash JavaScript Library - Chris Troutner</h3>
               </li>
               <li>
-                <h3>Introduction to Simple Ledger Protocol (SLP) Tokens - SLP Foundation</h3>
+                <h3>Intro to Bitcoin.com Link - Multi Wallet Provider SDK</h3>
+              </li>
+              <li>
+                <h3>Introduction to Simple Ledger Protocol (SLP) Tokens</h3>
               </li>
               <li>
                 <h3>SWAP Protocol - Vin Armani</h3>
@@ -320,7 +323,7 @@ class Index extends React.Component {
                 <h4>Mentor</h4>
                 <p>
                   Amaury is the lead developer for <a target="_blank" href="https://bitcoinabc.org">Bitcoin ABC</a>,
-                  which is currently the most popular fullnode implementation for Bitcoin Cash.
+                  a popular fullnode implementation for Bitcoin Cash.
                 </p>
               </li>
               <li>
