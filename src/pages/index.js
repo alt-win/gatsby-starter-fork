@@ -25,6 +25,8 @@ import grapefruitTradingIcon from '../assets/images/sponsors/sponsor14.jpg'
 import satoshisAngelsIcon from '../assets/images/sponsors/sponsor15.jpg'
 import bitcoinComIcon from '../assets/images/sponsors/sponsor16.jpg'
 import anyPayIcon from '../assets/images/sponsors/sponsor17.jpg'
+import satochipIcon from '../assets/images/sponsors/sponsor18.jpg'
+
 
 
 
@@ -202,6 +204,12 @@ class Index extends React.Component {
                     <img className="sponsor-logo" src={satoshisAngelsIcon} alt="Satoshi's Angels" />
                   </div>
                   <p className="sponsor-name">Satoshi's Angels</p>
+                </a>
+                <a href="http://satochip.io/" target="_blank">
+                  <div className="sponsor-logo">
+                    <img className="sponsor-logo" src={satochipIcon} alt="Satochip hardware wallet" />
+                  </div>
+                  <p className="sponsor-name">Satochip.io</p>
                 </a>
             </div>
             </ul>
