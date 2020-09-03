@@ -26,6 +26,8 @@ import satoshisAngelsIcon from '../assets/images/sponsors/sponsor15.jpg'
 import bitcoinComIcon from '../assets/images/sponsors/sponsor16.jpg'
 import anyPayIcon from '../assets/images/sponsors/sponsor17.jpg'
 import satochipIcon from '../assets/images/sponsors/sponsor18.jpg'
+import slpIcon from '../assets/images/sponsors/sponsor19.jpg'
+
 
 
 
@@ -164,14 +166,19 @@ class Index extends React.Component {
             </header>
             <ul className="sponsors">
               <div className="lg-sponsors">
-
-              </div>
-              <div className="md-sponsors">
               <a href="https://developer.bitcoin.com/bitcoincom-link/" target="_blank">
                 <div className="sponsor-logo">
                   <img className="sponsor-logo" src={bitcoinComIcon} alt="Bitcoin.com" />
                 </div>
                 <p className="sponsor-name">Bitcoin.com</p>
+              </a>
+              </div>
+              <div className="md-sponsors">
+              <a href="https://slp.cash/" target="_blank">
+                <div className="sponsor-logo">
+                  <img className="sponsor-logo" src={slpIcon} alt="simpleledger.cash" />
+                </div>
+                <p className="sponsor-name">SLP Foundation</p>
               </a>
               </div>
               <div className="sm-sponsors">
@@ -193,6 +200,8 @@ class Index extends React.Component {
                   </div>
                   <p className="sponsor-name">Bitcoin Bay</p>
                 </a>
+                </div>
+                <div className="sm-sponsors">
                 <a href="http://gfru.it/" target="_blank">
                   <div className="sponsor-logo">
                     <img className="sponsor-logo" src={grapefruitTradingIcon} alt="Grapefruit Trading" />
